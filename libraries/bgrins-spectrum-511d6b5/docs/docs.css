@@ -1,0 +1,73 @@
+
+/* Styles for the demo page only.  See spectrum.css for the actual colorpicker styles */
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 14px; line-height: 1.5; }
+body, button, input, select, textarea { font-family: Droid Sans, Tahoma, sans-serif; color: #222; }
+h1 { font-family: Lucida Sans, Droid Sans, Verdana; font-size: 2em; margin: 0; padding:0; font-weight: lighter; }
+#header { background: #f3deae; padding: 3px; border-bottom: solid 1px #fee;}
+#goals { margin:0 auto; padding:0; width: 98%; }
+.goal { float: left; width: 29%; margin:1%; padding:1%; color: #335; min-height: 300px; background: #eee; border-radius: 10px; font-family: Verdana; }
+#docs .goal h3 { text-align: center; margin: .5em 0; font-weight: lighter; text-decoration: underline; font-family: Verdana; } 
+a { color: #00e; }
+a:visited { color: #009; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+#header h1 { float:left; }
+#links { float:right; text-align: right; }
+#pick2-details { font: monospace; }
+#switch-current { float: left; position:relative; display:none;}
+/*#switch-current .spectrum-container { position: fixed; top:60px; left: 10px; }*/
+#docs-content { margin: 0 auto; width: 90%; min-width: 600px; padding: 10px 30px; border:solid 10px #333; border-radius: 5px;  }
+.switch-current-output { display:none; margin:3px auto; width: 200px; text-align: center; }
+.type { padding-left: 4px; font-size: .8em; font-weight: bold;}
+.example { margin-top:10px; margin-left: 40px; }
+#docs { padding: 10px;  }
+#docs ul { margin-left: 25px; padding-left:0; }
+#docs li { list-style: square; margin-left: 6px; }
+#docs p { margin: 0; padding:0; padding-top:4px; margin-left: 25px; }
+#docs pre { margin-left: 25px; }
+#docs h2 { margin: .5em -25px; border-bottom: solid 1px; }
+#docs h3 { padding-left: 15px; margin: 10px -30px; margin-top: 40px; border-bottom: solid 1px #ccc;border-top: solid 1px #ccc; }
+#code-heading { font-size: 24px; text-align: center; margin: 6px 0; }
+#docs-content { color: #222; }
+#docs-content.dark { color: #ddd; }
+
+em.label { padding:4px; margin-left: 10px; display:inline-block; vertical-align: top; margin-top: 3px; }
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+/* prettify */
+.pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.prettyprint{padding:2px;border:1px solid #888; background: white;}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
+
+/* desert scheme ported from vim to google prettify */
+.dark pre { display: block; background-color: #333; border:1px solid #888; padding:2px;  }
+.dark pre .nocode { background-color: none; color: #000 }
+.dark pre .str { color: #ffa0a0 } /* string  - pink */
+.dark pre .kwd { color: #f0e68c; font-weight: bold }
+.dark pre .com { color: #87ceeb } /* comment - skyblue */
+.dark pre .typ { color: #98fb98 } /* type    - lightgreen */
+.dark pre .lit { color: #cd5c5c } /* literal - darkred */
+.dark pre .pun { color: #fff }    /* punctuation */
+.dark pre .pln { color: #fff }    /* plaintext */
+.dark pre .tag { color: #f0e68c; font-weight: bold } /* html/xml tag    - lightyellow */
+.dark pre .atn { color: #bdb76b; font-weight: bold } /* attribute name  - khaki */
+.dark pre .atv { color: #ffa0a0 } /* attribute value - pink */
+.dark pre .dec { color: #98fb98 } /* decimal         - lightgreen */
+
+@media print {
+  .dark pre { background-color: none }
+  .dark pre .str, .dark code .str { color: #060 }
+  .dark pre .kwd, .dark code .kwd { color: #006; font-weight: bold }
+  .dark pre .com, .dark code .com { color: #600; font-style: italic }
+  .dark pre .typ, .dark code .typ { color: #404; font-weight: bold }
+  .dark pre .lit, .dark code .lit { color: #044 }
+  .dark pre .pun, .dark code .pun { color: #440 }
+  .dark pre .pln, .dark code .pln { color: #000 }
+  .dark pre .tag, .dark code .tag { color: #006; font-weight: bold }
+  .dark pre .atn, .dark code .atn { color: #404 }
+  .dark pre .atv, .dark code .atv { color: #060 }
+}
