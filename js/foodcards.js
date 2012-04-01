@@ -6,7 +6,9 @@ $(document).ready(function(){
 });
 
 foods.loadContent = function() {
-  var contentData = "http://localhost/mongofood/api/foods.php" + "?cache=" + Math.floor(Math.random()*11);
+  var path = "http://localhost/mongofood/api/foods.php";
+  var contentData = path + "?cache=" + Math.floor(Math.random()*11);
+  
   var data = "";
 
   $.ajax({

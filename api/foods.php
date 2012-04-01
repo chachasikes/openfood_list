@@ -27,6 +27,7 @@ foreach ($cursor as $obj) {
     if($i > 0) {
      $json .= ',';
     }
+
     $json .= json_encode($obj);
   
     $i++;
