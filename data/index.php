@@ -53,8 +53,7 @@
 
 
 <div class="content">
-content
-<?php include('php/index.php'); ?>
+
 
 </div>
 
