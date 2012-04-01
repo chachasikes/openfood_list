@@ -53,17 +53,13 @@
 
 <!-- Masthead
 ================================================== -->
-<header class="jumbotron masthead">
-  <div class="inner">
-    <h1>Foods</h1>
-  </div>
-</header>
-
-<hr class="soften">
-
 
 <div class="content">
-<?php include('php/foods.php'); ?>
+  <div id="foods">
+    <div class="food">
+      <p>${name}</p>
+    </div>
+  </div>
 </div>
 
 
@@ -96,6 +92,9 @@
     <script src="assets/js/bootstrap-typeahead.js"></script>
     <script src="assets/js/application.js"></script>
 
+    <script src="js/jquery-tmpl/jquery.tmpl.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/foodcards.js"></script>
 
   </body>
 </html>

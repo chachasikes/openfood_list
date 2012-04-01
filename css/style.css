@@ -1,7 +1,15 @@
+
+#foods {
+  margin: 50px;
+}
 .food {
-  margin: 30px;
-  width: 250px;
-  padding: 30px;
+  margin: 0;
+  padding: 3px 50px 3px 0;
   text-transform: uppercase;
   font-size: 125%;
+}
+
+.food p {
+  margin: 0;
+  line-height: 1em;
 }
