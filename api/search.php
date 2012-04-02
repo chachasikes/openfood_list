@@ -6,7 +6,7 @@ $collection = $m->openfood->foods;
 
 // find everything in the collection
 if(!empty($_GET['search'])){
-  $cursor = $collection->find(array("name" => $_GET['search']))->limit(100)->sort(array("name" => 1));
+  $cursor = $collection->find(array("name" =>  new MongoRegex('/'. $_GET['search'] .'/i')))->limit(100)->sort(array("name" => 1));
 }
 
 
