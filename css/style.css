@@ -12,9 +12,13 @@
 .food a {
   width: 200px;
   display: block;
-  padding: 5px;
+  padding: 0px;
 }
 .food p {
   margin: 0;
   line-height: 1em;
+}
+
+#search {
+  margin-top: 100px;
 }

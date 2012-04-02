@@ -5,7 +5,10 @@ $m = new Mongo();
 $collection = $m->openfood->foods;
 
 // find everything in the collection
-$cursor = $collection->find()->limit(1000)->sort(array("name" => 1));
+if(!empty($_GET['search'])){
+  $cursor = $collection->find(array("name" => $_GET['search']))->limit(100)->sort(array("name" => 1));
+}
+
 
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 

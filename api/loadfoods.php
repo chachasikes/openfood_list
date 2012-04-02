@@ -7,7 +7,7 @@ $collection = $m->openfood->foods;
 // find everything in the collection
 $cursor = $collection->find();
 
-$file_path = '../data/open_food_bkg_colors.json';
+$file_path = '../data/openfood_all.json';
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
 
@@ -23,9 +23,10 @@ foreach ($objects as $obj_load) {
 // find everything in the collection
 /* $cursor = $collection->find(array('name' => "Dill"))->limit(10); */
 /* $cursor = $collection->findOne(array('nid' => '739')); */
-$cursor = $collection->find()->limit(300);
+// $cursor = $collection->find()->limit(300);
 
 // Print data
+/*
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT"); 
 header("Cache-Control: no-cache, must-revalidate"); 
@@ -36,6 +37,7 @@ $json = '{"foods": [' ;
 $i = 0;
 
 // iterate through the results
+
 foreach ($cursor as $obj) {
   if(!empty($obj['name'])) {
     if($i > 0) {
@@ -51,5 +53,6 @@ foreach ($cursor as $obj) {
 $json .= ']}';
 
 echo $json;
-
+*/
+echo "done";
 ?>

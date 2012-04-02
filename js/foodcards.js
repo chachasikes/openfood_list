@@ -1,8 +1,14 @@
 // Functions and namespace for this app.
 var foods = {};
   
+var foodsContainer;
+var foodsMarkup;
+var foodContent;
+foods.setup = false;
+  
 $(document).ready(function(){
   foods.loadContent();
+  foods.searchFood();
 });
 
 foods.loadContent = function() {
@@ -36,19 +42,32 @@ foods.contentLoadSuccess = function(data) {
     foods.loadFood(hash);
   }
   else{
-    foods.loadFoods();
+    if(foods.setup === false) {
+      foods.setupLoadFoods();
+      foods.loadFoods();
+    }
+    else {
+      foods.loadFoods();   
+    }
   }
   return false;
 };
 
-foods.loadFoods = function(){
-  var type = "food";
-  var foodsContainer = $('div#foods');
-  var foodsMarkup = foodsContainer.html();
-  var foodContent = {};
-  foodsContainer.empty();
-  $.template( "foodsTemplate", foodsMarkup );        
 
+foods.setupLoadFoods = function() {
+  var type = "food";
+  foodsContainer = $('div#foods');
+  foodsMarkup = foodsContainer.html();
+  foodContent = {};
+/*   console.log(foodsMarkup); */
+  foodsContainer.empty();
+  foods.setup = true;
+  $.template( "foodsTemplate", foodsMarkup );  
+};
+
+
+foods.loadFoods = function() {
+  foodsContainer.empty();
   for (var i in foods.content) {
     $.tmpl("foodsTemplate",  foods.content[i])
       .appendTo(foodsContainer); 
@@ -66,8 +85,7 @@ foods.loadFood = function(key) {
       itemsContainer.empty();
       $.template( "itemsTemplate", itemsMarkup ); 
       $.tmpl("itemsTemplate", foods.content[i][key])
-      .appendTo(itemsContainer);  
-
+      .appendTo(itemsContainer);
       
       foodContent = {};
       var itemContainer = $('.food');
@@ -75,7 +93,6 @@ foods.loadFood = function(key) {
       itemContainer.empty();
       $.template( "itemTemplate", itemMarkup);
 
-      
       for (item in foods.content[i][key]) {
         if(item != "title") {
           foodContent.itemTitle = item;
@@ -125,3 +142,30 @@ foods.loadData = function(content, source) {
     }
   }
 };
+
+foods.searchFood = function() {
+  $("div#search input.button").click(function(){
+  
+  var searchValue = $("div#search input.search").val();
+
+  var path = "http://localhost/mongofood/api/search.php?search=" + searchValue;
+  
+  var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+  
+  var data = "";
+
+  $.ajax({
+    url:  contentData,
+    dataType: 'json',
+    data: data,
+    success: foods.contentLoadSuccess,
+    error: foods.loadDataError
+  });
+
+
+  return false;
+
+
+  });
+}
+
