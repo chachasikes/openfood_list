@@ -101,7 +101,12 @@
             <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
             <input class="picker" />
           </p></div>
-          <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}"><div class="modal-label">Text Color</div><p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p></div>
+          <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
+            <div class="modal-label">Text Color</div>
+            <p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p>
+            <input type="radio" name="food_color_text" value="dark"> Dark<br />
+            <input type="radio" name="food_color_text" value="light"> Light<br />
+            </p></div>
         </div>
 
 

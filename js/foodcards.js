@@ -251,33 +251,63 @@ foods.categoriesLoadSuccess = function(data) {
 }
 
 foods.editButtons = function(food) {
+  var record = {};
+  record.food = food;
+$("div.colors .background input.picker").spectrum({
+    color: food.food_color_background
+    });
 
 $("div.colors .background input.picker").spectrum({
+    change: function(color) {
+        var newColor = color.toHexString();
+        newColor.replace(/^#+/, "");
+        record.food_background_color = newColor;
+        console.log(newColor);
+      }
+    });
+
+$("div.colors .text input.picker").spectrum({
     color: food.food_color_background
 });
 
-/* $("div.colors .background input.picker").spectrum("show"); */
+
+$("div.colors .text input[name=food_color_text]").change(function() {
+    var record = {};
+    record.food = foodContent;
+    var currentColor = $(this).val();
+    if(currentColor == 'dark') {
+      record.food.food_color_text = '131313';
+    }
+    if(currentColor == 'light') {
+      record.food.food_color_text = 'EEEFE6';
+    }
+
+
+    foods.updateRecord(record);
+  });
+
 };
 
-foods.updateRecord = function() {
+foods.updateRecord = function(record) {
 
-  var record = {};
-  record.nid = 745;
-
-
-    var path = "http://localhost/mongofood/api/search.php?category=" + searchValues;
-    console.log(path);
+    var path = "http://localhost/mongofood/api/update.php";
+    console.log(record);
    
-    var contentData = path + "&cache=" + Math.floor(Math.random()*11);
-    
-    var data = "";
+    var contentData = path + "?cache=" + Math.floor(Math.random()*11);
+
   
     $.ajax({
       url:  contentData,
+      type: 'POST',
       dataType: 'json',
-      data: data,
-      success: foods.contentLoadSuccess,
+      data: record,
+      success: foods.updateLoadSuccess,
       error: foods.loadDataError
     });
 
+};
+
+foods.updateLoadSuccess = function(data) {
+  console.log(data);
+/*   foods.loadFood(data["_id"]["$id"]); */
 };
