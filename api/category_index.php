@@ -2,50 +2,56 @@
 
 // connect
 $m = new Mongo();
-$collection = $m->openfood->foods;
+$foods_collection = $m->openfood->foods;
 
 // find everything in the collection
-$cursor = $collection->find();
+$cursor = $foods_collection->find();
+$category_index = $m->openfood->categories->drop();
+$category_index = $m->openfood->categories;
 
-$file_path = '../data/openfood_all.json';
-$file_data = file_get_contents($file_path);
-/* var_dump($file_data); */
 
-$json = json_decode($file_data);
 
-$objects = $json->foods;
-$i = 0;
+$json = '';
+foreach ($cursor as $obj) {
+  if(!empty($obj['name'])) {
+    if($obj['category_array'][0] !== '') {
 
-foreach ($objects as $obj_load) {
-  $obj_load->category_array = explode(",", $obj_load->category);
-/*
-  echo "<pre>";
-    var_dump($obj_load->category_array);
-  echo "</pre>";
-*/
-  $collection->update(array('nid' => $obj_load->nid), array('$addToSet' => $obj_load), true);
+
+        foreach($obj['category_array'] as $category) {
+          $category_obj = array('$addToSet' => array('name' => $obj["name"]), '$set' => array('category' => $category));
+          $category_index->update(array('category' => $category), $category_obj, true);      
+        }
+    
+
+
 }
 
+
+  }
+}
+
+
+$collection = $m->openfood->categories;
+$cursor = $collection->find();
 // find everything in the collection
 /* $cursor = $collection->find(array('name' => "Dill"))->limit(10); */
 /* $cursor = $collection->findOne(array('nid' => '739')); */
 // $cursor = $collection->find()->limit(300);
 
 // Print data
-/*
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT"); 
 header("Cache-Control: no-cache, must-revalidate"); 
 header("Pragma: no-cache");
 header("Content-type: application/json");
-$json = '{"foods": [' ;
+$json = '{"categories": [' ;
 
 $i = 0;
 
 // iterate through the results
 
 foreach ($cursor as $obj) {
-  if(!empty($obj['name'])) {
+  if(!empty($obj['category'])) {
     if($i > 0) {
      $json .= ',';
     }
@@ -57,8 +63,7 @@ foreach ($cursor as $obj) {
 }
 
 $json .= ']}';
-
 echo $json;
-*/
-echo "done";
+
+
 ?>

@@ -2,18 +2,28 @@
 
 // connect
 $m = new Mongo();
-$collection = $m->openfood->foods;
+$categories = $m->openfood->categories;
+$foods = $m->openfood->foods;
+
 
 // find everything in the collection
-if(!empty($_GET['search'])){
-  $search_split = explode(",", $_GET['search']);
+if(!empty($_GET['category'])){
 
-/*   $cursor = $collection->find(array("name" =>  new MongoRegex('/'. $search_split[0] .'/i')))->limit(1000)->sort(array("name" => 1)); */
 
-  $multiple_searches = implode("|", $search_split);
-  $search = new MongoRegex('/'. $multiple_searches . '/i');
-  $cursor = $collection->find(array("name" => $search))->limit(1000)->sort(array("name" => 1));
+    $search_split = explode(",", $_GET['category']);
+    $multiple_searches = implode("|", $search_split);
+    $search = new MongoRegex('/'. $multiple_searches . '/i');
+    $cursor = $foods->find(array("category" => $search))->limit(1000)->sort(array("name" => 1));
+    
 
+
+
+}
+
+else {
+  
+    $cursor = $categories->find()->limit(1000)->sort(array("category" => 1));    
+  
 }
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 

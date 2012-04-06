@@ -64,15 +64,14 @@
 
   <div id="filters">
     <select name="categories" multiple="multiple">
-      <option>category1</option>
-      <option>category2</option>
+      <option>${category}</option>
     </select>
     <input class="button" type="submit" value="submit" />
   </div>  
 
   <div id="foods">
     <div class="food">
-      <p><a id=${_id.$id} style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</p>
+      <p><a id=${_id.$id} style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a></p>
     </div>
   </div>
 

@@ -4,6 +4,8 @@ var foods = {};
 var foodsContainer;
 var foodsMarkup;
 var foodContent;
+var categories;
+var itemContainer;
 foods.setup = false;
   
 $(document).ready(function(){
@@ -115,12 +117,14 @@ foods.loadFood = function(key) {
 
       $('title').html(foods.content[i][key].title);
 
+/*
       $(function(){      
-        $('.items').isotope({
-          itemSelector: '.item',
+        $('div#foods').isotope({
+          itemSelector: '.food',
           layoutMode : 'masonry'
         });
       });
+*/
    
       break;
     }
@@ -172,38 +176,66 @@ foods.searchFood = function() {
 
 
 foods.loadCategories = function() {
+  
+    var path = "http://localhost/mongofood/api/categories.php";
+   
+    var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+    
+    var data = "";
+  
+    $.ajax({
+      url:  contentData,
+      dataType: 'json',
+      data: data,
+      success: foods.categoriesLoadSuccess,
+      error: foods.loadDataError
+    });
+};
+
+foods.categoriesLoadSuccess = function() {
+  itemsContainer = $('div#filters');
+      
+ 
+  var itemsMarkup = itemsContainer.html();
+  itemsContainer.empty();
+  $.template( "itemsTemplate", itemsMarkup ); 
+  
+  
+  $.tmpl("itemsTemplate", foods.content[i][key])
+  .appendTo(itemsContainer);
+
+
+
   $("div#filters").change(function(){
  
-  var searchValues = '';
-  var numberSelected = $("select option:selected").length;
-  var i = 0;
-
-  $("select option:selected").each(function () {
-    searchValues += $(this).text();
-    if(i < numberSelected - 1) {
-      searchValues += ",";
-    }
-    i++;    
-  });
-
-  var path = "http://localhost/mongofood/api/search.php?search=" + searchValues;
- 
- /*
- var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+    var searchValues = '';
+    var numberSelected = $("select option:selected").length;
+    var i = 0;
   
-  var data = "";
-
-  $.ajax({
-    url:  contentData,
-    dataType: 'json',
-    data: data,
-    success: foods.contentLoadSuccess,
-    error: foods.loadDataError
-  });
-
-*/
-
-  return false;
+    $("select option:selected").each(function () {
+      searchValues += $(this).text();
+      if(i < numberSelected - 1) {
+        searchValues += ",";
+      }
+      i++;    
+    });
+  
+    var path = "http://localhost/mongofood/api/search.php?search=" + searchValues;
+   
+    var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+    
+    var data = "";
+  
+    $.ajax({
+      url:  contentData,
+      dataType: 'json',
+      data: data,
+      success: foods.contentLoadSuccess,
+      error: foods.loadDataError
+    });
+  
+  
+    return false;
   
   });
 }
