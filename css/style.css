@@ -32,6 +32,45 @@
  top: 30px;
 }
 
+h3 {
+  margin: 5px 0 10px 0;
+}
+
+h4, h5, h6 {
+  margin: 20px 0 5px 0;
+}
+dd {
+  margin: 3px 0 10px 0;
+}
+
+.colors .text {
+
+}
+
+.color {
+  width: 80px;
+  height: 80px;
+  border: solid 3px #efefef;
+  padding: 20px;
+  margin:  20px 20px 0px 0px;
+  -moz-box-shadow: 0 0 10px #888;
+  -webkit-box-shadow: 0 0 10px#888;
+  box-shadow: 0 0 10px #888;
+  color: white; text-shadow: #888 0.1em 0.1em 0.1em;
+}
+
+.color .modal-label, .date {
+  text-transform: uppercase;
+  font-size: 80%;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+
+.color p {
+  font-weight: bold;
+  color: white; 
+  text-shadow: #888 0.1em 0.1em 0.1em;
+}
 /* Start: Recommended Isotope styles */
 
 /**** Isotope Filtering ****/
