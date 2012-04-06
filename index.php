@@ -10,8 +10,7 @@
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-
-
+    <link href="css/spectrum.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -72,7 +71,7 @@
     <div id="food" class="modal hide">
       <div class="modal-header">
         <a class="close" data-dismiss="modal" >&times;</a>
-        <h3>${name}</h3>
+        <h2>${name}</h2>
       </div>
       <div class="modal-body">
         <h4>Names</h4>
@@ -97,7 +96,11 @@
         </div>
         {{/if}}
         <div class="colors">
-          <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};"><div class="modal-label">Background Color</div><p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}</p></div>
+          <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
+            <div class="modal-label">Background Color</div>
+            <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
+            <input class="picker" />
+          </p></div>
           <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}"><div class="modal-label">Text Color</div><p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p></div>
         </div>
 
@@ -158,6 +161,7 @@
     <script src="assets/js/bootstrap-typeahead.js"></script>
     <script src="assets/js/application.js"></script>
 
+    <script src="js/spectrum.js"></script>
     <script src="js/jquery-tmpl/jquery.tmpl.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/foodcards.js"></script>

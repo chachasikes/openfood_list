@@ -126,10 +126,12 @@ foods.loadFood = function(key) {
       foodContainer.empty();
       
       foodContent = foods.content[i];
-      console.log(foodContent);
 
       $.tmpl("foodTemplate", foodContent )
       .appendTo(foodContainer);
+
+
+      foods.editButtons(foodContent);
    
       break;
     }
@@ -248,3 +250,34 @@ foods.categoriesLoadSuccess = function(data) {
   });
 }
 
+foods.editButtons = function(food) {
+
+$("div.colors .background input.picker").spectrum({
+    color: food.food_color_background
+});
+
+/* $("div.colors .background input.picker").spectrum("show"); */
+};
+
+foods.updateRecord = function() {
+
+  var record = {};
+  record.nid = 745;
+
+
+    var path = "http://localhost/mongofood/api/search.php?category=" + searchValues;
+    console.log(path);
+   
+    var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+    
+    var data = "";
+  
+    $.ajax({
+      url:  contentData,
+      dataType: 'json',
+      data: data,
+      success: foods.contentLoadSuccess,
+      error: foods.loadDataError
+    });
+
+};
