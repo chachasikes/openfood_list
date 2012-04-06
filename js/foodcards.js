@@ -3,6 +3,8 @@ var foods = {};
   
 var foodsContainer;
 var foodsMarkup;
+var foodContainer;
+var foodMarkup;
 var foodContent;
 var categories;
 var itemContainer;
@@ -12,7 +14,7 @@ $(document).ready(function(){
   foods.loadContent();
   foods.searchFood();
   foods.loadCategories();
-  
+
   foods.customizeInitialLoad();
   
 });
@@ -60,28 +62,50 @@ foods.contentLoadSuccess = function(data) {
     else {
       foods.loadFoods();   
     }
-    
+
+
+  foods.foodClick();
+  
+/* // Isotope
     $(function(){      
       $('div#foods').isotope({
         itemSelector: '.food',
         layoutMode : 'masonry'
       });
     });
+*/
     
   }
   return false;
 };
 
+foods.foodClick = function() {
+
+  $("div#foods div.food a").click(function(){
+      var food_id = $(this).attr("id"); 
+
+
+      foods.loadFood(food_id);
+    }
+  );
+  return false;
+};
 
 foods.setupLoadFoods = function() {
   var type = "food";
   foodsContainer = $('div#foods');
   foodsMarkup = foodsContainer.html();
   foodContent = {};
-/*   console.log(foodsMarkup); */
+
   foodsContainer.empty();
-  foods.setup = true;
   $.template( "foodsTemplate", foodsMarkup );  
+
+  foodContainer = $('div#food');
+  foodMarkup = foodContainer.html();
+  $.template( "foodTemplate", foodMarkup ); 
+
+  foods.setup = true;
+
 };
 
 
@@ -97,41 +121,15 @@ foods.loadFoods = function() {
 
 foods.loadFood = function(key) {
   for (var i in foods.content) {  
-    if(foods.content[i][key] !== null && foods.content[i][key] !== undefined) {
+    if(foods.content[i]["_id"] !== null && foods.content[i]['_id']['$id'] == key) {
 
-      var itemsContainer = $('div#foods');
-      var itemsMarkup = itemsContainer.html();
-      itemsContainer.empty();
-      $.template( "itemsTemplate", itemsMarkup ); 
-      $.tmpl("itemsTemplate", foods.content[i][key])
-      .appendTo(itemsContainer);
+      foodContainer.empty();
       
-      foodContent = {};
-      var itemContainer = $('.food');
-      var itemMarkup = itemContainer.html();
-      itemContainer.empty();
-      $.template( "itemTemplate", itemMarkup);
+      foodContent = foods.content[i];
+      console.log(foodContent);
 
-      for (item in foods.content[i][key]) {
-        if(item != "title") {
-          foodContent.itemTitle = item;
-          foodContent.itemContent = foods.content[i][key][item];
-          foodContent.itemKey = key;          
-          foodContent.data = foods.loadData(foods.content[i][key], item);
-          if(foodContent.data !== undefined) {
-            foodContent.dataName = foodContent.data["name"];
-            foodContent.dataSourceName = foodContent.data["source_name"];
-            foodContent.dataFrequency = foodContent.data["frequency"];
-            foodContent.dataPublishedDate = foodContent.data["published_date"];
-            foodContent.dataPermalink = foodContent.data["permalink"];
-          }
-          
-          $.tmpl("itemTemplate", foodContent)
-            .appendTo(itemContainer);
-        }
-      }
-
-      $('title').html(foods.content[i][key].title);
+      $.tmpl("foodTemplate", foodContent )
+      .appendTo(foodContainer);
    
       break;
     }

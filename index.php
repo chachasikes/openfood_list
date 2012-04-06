@@ -68,11 +68,40 @@
     </select>
   </div>  
 
+      <!-- about modal content -->
+    <div id="food" class="modal hide">
+      <div class="modal-header">
+        <a class="close" data-dismiss="modal" >&times;</a>
+        <h3>${name}</h3>
+      </div>
+      <div class="modal-body">
+        <h4>Names</h4>
+        <dd>
+          <dt>Scientific Name</dt><dd>${scientific_name}</dd>
+          <dt>Alternate names</dt><dd>${alternate_names}</dd>
+        </dd>
+        <h4>Categories</h4>
+        <div class="categories">
+          ${category}
+        </div>
+        <div class="color">
+          ${food_color_background}
+          ${food_color_text}
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal" >Close</a>
+      </div>
+    </div>
+
   <div id="foods" class="inner-transition">
     <div class="food">
-      <p><a id=${_id.$id} style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a></p>
+      <p><a id="${_id.$id}" href="#food" data-toggle="modal" style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a></p>
     </div>
   </div>
+  
+  
+
 
 </div>
 
