@@ -6,16 +6,35 @@ $collection = $m->openfood->foods;
 
 // find everything in the collection
 if(!empty($_GET['search'])){
-  $cursor = $collection->find(array("name" =>  new MongoRegex('/'. $_GET['search'] .'/i')))->limit(100)->sort(array("name" => 1));
+  $search_split = explode(",", $_GET['search']);
+
+/*   $cursor = $collection->find(array("name" =>  new MongoRegex('/'. $search_split[0] .'/i')))->limit(1000)->sort(array("name" => 1)); */
+
+  $multiple_searches = implode("|", $search_split);
+
+
+    $search = new MongoRegex('/'. $multiple_searches . '/i');
+echo "<pre>";
+print_r($multiple_searches);
+echo "</pre>";
+/*   $cursor = $collection->find($multiple_searches[0])->limit(1000)->sort(array("name" => 1)); */
+
+  $cursor = $collection->find(array("name" => $search))->limit(1000)->sort(array("name" => 1));
+
 }
 
 
+/*
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT"); 
 header("Cache-Control: no-cache, must-revalidate"); 
 header("Pragma: no-cache");
 header("Content-type: application/json");
+*/
+
+
+
 $json = '{"foods": [' ;
 
 $i = 0;

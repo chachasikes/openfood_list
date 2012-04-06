@@ -9,6 +9,7 @@ foods.setup = false;
 $(document).ready(function(){
   foods.loadContent();
   foods.searchFood();
+  foods.loadCategories();
 });
 
 foods.loadContent = function() {
@@ -69,7 +70,7 @@ foods.setupLoadFoods = function() {
 foods.loadFoods = function() {
   foodsContainer.empty();
   for (var i in foods.content) {
-    $.tmpl("foodsTemplate",  foods.content[i])
+    $.tmpl("foodsTemplate", foods.content[i])
       .appendTo(foodsContainer); 
   }
 
@@ -149,7 +150,7 @@ foods.searchFood = function() {
   var searchValue = $("div#search input.search").val();
 
   var path = "http://localhost/mongofood/api/search.php?search=" + searchValue;
-  
+   console.log(path);
   var contentData = path + "&cache=" + Math.floor(Math.random()*11);
   
   var data = "";
@@ -166,6 +167,44 @@ foods.searchFood = function() {
   return false;
 
 
+  });
+}
+
+
+foods.loadCategories = function() {
+  $("div#filters").change(function(){
+ 
+  var searchValues = '';
+  var numberSelected = $("select option:selected").length;
+  var i = 0;
+
+  $("select option:selected").each(function () {
+    searchValues += $(this).text();
+    if(i < numberSelected - 1) {
+      searchValues += ",";
+    }
+    i++;    
+  });
+
+  var path = "http://localhost/mongofood/api/search.php?search=" + searchValues;
+ 
+ /*
+ var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+  
+  var data = "";
+
+  $.ajax({
+    url:  contentData,
+    dataType: 'json',
+    data: data,
+    success: foods.contentLoadSuccess,
+    error: foods.loadDataError
+  });
+
+*/
+
+  return false;
+  
   });
 }
 
