@@ -68,7 +68,7 @@
     </select>
   </div>  
 
-  <div id="foods">
+  <div id="foods" class="inner-transition">
     <div class="food">
       <p><a id=${_id.$id} style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a></p>
     </div>

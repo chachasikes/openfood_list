@@ -13,10 +13,14 @@ $(document).ready(function(){
   foods.searchFood();
   foods.loadCategories();
   
-    $("div#search input.search").val("Search for a food");
-
+  foods.customizeInitialLoad();
   
 });
+
+
+foods.customizeInitialLoad = function() {
+  $("div#search input.search").val("Search for a food");
+};
 
 foods.loadContent = function() {
   var path = "http://localhost/mongofood/api/foods.php";
@@ -56,6 +60,14 @@ foods.contentLoadSuccess = function(data) {
     else {
       foods.loadFoods();   
     }
+    
+    $(function(){      
+      $('div#foods').isotope({
+        itemSelector: '.food',
+        layoutMode : 'masonry'
+      });
+    });
+    
   }
   return false;
 };
@@ -120,15 +132,6 @@ foods.loadFood = function(key) {
       }
 
       $('title').html(foods.content[i][key].title);
-
-/*
-      $(function(){      
-        $('div#foods').isotope({
-          itemSelector: '.food',
-          layoutMode : 'masonry'
-        });
-      });
-*/
    
       break;
     }
