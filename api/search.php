@@ -15,6 +15,15 @@ if(!empty($_GET['search'])){
   $cursor = $collection->find(array("name" => $search))->limit(1000)->sort(array("name" => 1));
 
 }
+else if(!empty($_GET['category'])){
+  $search_split = explode(",", $_GET['category']);
+  $multiple_searches = implode("|", $search_split);
+
+  $search = new MongoRegex('/'. $multiple_searches . '/i');
+
+  $cursor = $collection->find(array("category" => $search))->limit(1000)->sort(array("name" => 1));
+
+}
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT"); 

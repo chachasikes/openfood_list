@@ -61,12 +61,11 @@
     <input class="button" type="submit" value="submit" />
   </div>  
 
-
   <div id="filters">
-    <select name="categories" multiple="multiple">
+    <label>Categories</label>
+    <select id="categories" name="categories" multiple="multiple">
       <option>${category}</option>
     </select>
-    <input class="button" type="submit" value="submit" />
   </div>  
 
   <div id="foods">
@@ -75,8 +74,6 @@
     </div>
   </div>
 
-
-  
 </div>
 
 

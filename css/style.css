@@ -6,13 +6,12 @@
   margin: 0;
   padding: 3px 5px 3px 0;
   text-transform: uppercase;
-  font-size: 125%;
   float: left;
 }
 .food a {
   width: 200px;
   display: block;
-  padding: 0px;
+  padding: 3px;
 }
 .food p {
   margin: 0;
@@ -20,5 +19,10 @@
 }
 
 #search {
+  float: left;
+  margin: 0 20px 0 50px;
+}
+
+#filters {
   margin-top: 100px;
 }

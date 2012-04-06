@@ -5,25 +5,16 @@ $m = new Mongo();
 $categories = $m->openfood->categories;
 $foods = $m->openfood->foods;
 
-
-// find everything in the collection
 if(!empty($_GET['category'])){
-
-
+    // Get category and load foods with that category.
     $search_split = explode(",", $_GET['category']);
     $multiple_searches = implode("|", $search_split);
     $search = new MongoRegex('/'. $multiple_searches . '/i');
     $cursor = $foods->find(array("category" => $search))->limit(1000)->sort(array("name" => 1));
-    
-
-
-
 }
-
 else {
-  
+    // Return a list of all categories, which are generated periodically by running category_index.php.
     $cursor = $categories->find()->limit(1000)->sort(array("category" => 1));    
-  
 }
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
@@ -33,7 +24,7 @@ header("Pragma: no-cache");
 header("Content-type: application/json");
 
 
-$json = '{"foods": [' ;
+$json = '{"categories": [' ;
 
 $i = 0;
 

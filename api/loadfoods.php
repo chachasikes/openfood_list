@@ -18,12 +18,10 @@ $i = 0;
 
 foreach ($objects as $obj_load) {
   $obj_load->category_array = explode(",", $obj_load->category);
-/*
-  echo "<pre>";
-    var_dump($obj_load->category_array);
-  echo "</pre>";
-*/
-  $collection->update(array('nid' => $obj_load->nid), array('$addToSet' => $obj_load), true);
+  foreach($obj_load->category_array as $i) {
+    $i = trim($i);
+  }
+  $collection->update(array('nid' => $obj_load->nid), array('$set' => $obj_load), true);
 }
 
 // find everything in the collection

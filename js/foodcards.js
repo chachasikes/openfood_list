@@ -12,6 +12,10 @@ $(document).ready(function(){
   foods.loadContent();
   foods.searchFood();
   foods.loadCategories();
+  
+    $("div#search input.search").val("Search for a food");
+
+  
 });
 
 foods.loadContent = function() {
@@ -150,7 +154,6 @@ foods.loadData = function(content, source) {
 
 foods.searchFood = function() {
   $("div#search input.button").click(function(){
-  
   var searchValue = $("div#search input.search").val();
 
   var path = "http://localhost/mongofood/api/search.php?search=" + searchValue;
@@ -179,7 +182,7 @@ foods.loadCategories = function() {
   
     var path = "http://localhost/mongofood/api/categories.php";
    
-    var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+    var contentData = path + "?cache=" + Math.floor(Math.random()*11);
     
     var data = "";
   
@@ -192,8 +195,11 @@ foods.loadCategories = function() {
     });
 };
 
-foods.categoriesLoadSuccess = function() {
-  itemsContainer = $('div#filters');
+foods.categoriesLoadSuccess = function(data) {
+
+  categories = data["categories"];
+
+  itemsContainer = $('div#filters select#categories');
       
  
   var itemsMarkup = itemsContainer.html();
@@ -201,7 +207,7 @@ foods.categoriesLoadSuccess = function() {
   $.template( "itemsTemplate", itemsMarkup ); 
   
   
-  $.tmpl("itemsTemplate", foods.content[i][key])
+  $.tmpl("itemsTemplate", categories)
   .appendTo(itemsContainer);
 
 
@@ -209,18 +215,19 @@ foods.categoriesLoadSuccess = function() {
   $("div#filters").change(function(){
  
     var searchValues = '';
-    var numberSelected = $("select option:selected").length;
+    var numberSelected = $("select#categories option:selected").length;
     var i = 0;
   
-    $("select option:selected").each(function () {
-      searchValues += $(this).text();
+    $("select#categories option:selected").each(function () {
+      searchValues += $(this).text().trim();
       if(i < numberSelected - 1) {
         searchValues += ",";
       }
       i++;    
     });
   
-    var path = "http://localhost/mongofood/api/search.php?search=" + searchValues;
+    var path = "http://localhost/mongofood/api/search.php?category=" + searchValues;
+    console.log(path);
    
     var contentData = path + "&cache=" + Math.floor(Math.random()*11);
     

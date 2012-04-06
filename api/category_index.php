@@ -18,6 +18,7 @@ foreach ($cursor as $obj) {
 
 
         foreach($obj['category_array'] as $category) {
+          $category = strtolower(trim($category)); 
           $category_obj = array('$addToSet' => array('name' => $obj["name"]), '$set' => array('category' => $category));
           $category_index->update(array('category' => $category), $category_obj, true);      
         }
