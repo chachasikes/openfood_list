@@ -130,7 +130,6 @@ foods.loadFood = function(key) {
       $.tmpl("foodTemplate", foodContent )
       .appendTo(foodContainer);
 
-
       foods.editButtons(foodContent);
    
       break;
@@ -253,8 +252,9 @@ foods.categoriesLoadSuccess = function(data) {
 foods.editButtons = function(food) {
   var record = {};
   record.food = foodContent;
+  console.log(foodContent.food_color_background);
   $("div.colors .background input.picker").spectrum({
-    color: record.food.food_color_background
+    color: foodContent.food_color_background
   });
 
   $("div.colors .background input.picker").spectrum({
@@ -264,6 +264,8 @@ foods.editButtons = function(food) {
       var newColor = color.toHexString();
       newColor = newColor.replace('#', "");
       record.food.food_color_background = newColor;
+
+      $("div#foods .food a#" + record.food["_id"]["$id"]).css("background-color", "#" + newColor);
 
       foods.updateRecord(record);
     }
@@ -291,6 +293,8 @@ foods.editButtons = function(food) {
     if(currentColor == 'light') {
       record.food.food_color_text = 'EEEFE6';
     }
+
+      $("div#foods .food a#" + record.food["_id"]["$id"]).css("color", "#" + record.food.food_color_text);
 
     foods.updateRecord(record);
   });

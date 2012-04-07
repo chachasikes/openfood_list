@@ -104,7 +104,7 @@
           <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
             <div class="modal-label">Background Color</div>
             <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
-            <input class="picker" />
+            <input class="picker" value="{{if food_color_background}}#${food_color_background}{{/if}}" />
           </p></div>
           <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
             <div class="modal-label">Text Color</div>
