@@ -1,7 +1,5 @@
 <?php
-
-
-include('../../openfoodmongo_authenticate.php');
+include('../../../openfoodmongo_authenticate.php');
 $foods_collection = $m->openfood->foods;
 
 // find everything in the collection
