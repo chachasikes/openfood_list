@@ -1,6 +1,7 @@
 <?php
 
 include('../../openfoodmongo_authenticate.php');
+connectMongo(false);
 
 $collection = $m->openfood->foods;
 

@@ -1,9 +1,8 @@
 <?php
-
-
 include('../../openfoodmongo_authenticate.php');
+connectMongo(true);
 
-$collection = $m_write->openfood->foods;
+$collection = $m->openfood->foods;
 
 
 // find everything in the collection

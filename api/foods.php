@@ -1,5 +1,6 @@
 <?php
 include('../../openfoodmongo_authenticate.php');
+connectMongo(false);
 
 if(!empty($_GET['page'])){
  $page = $_GET['page'];
@@ -8,7 +9,7 @@ if(!empty($_GET['page'])){
 else{
   $page = 0;
 }
-
+$page = 0;
 $page_items = 500;
 
 $collection = $m->openfood->foods;

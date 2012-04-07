@@ -1,11 +1,12 @@
 <?php
 include('../../openfoodmongo_authenticate.php');
+connectMongo(true);
 $foods_collection = $m->openfood->foods;
 
 // find everything in the collection
 $cursor = $foods_collection->find();
-$category_index = $m_write->openfood->categories->drop();
-$category_index = $m_write->openfood->categories;
+$category_index = $m->openfood->categories->drop();
+$category_index = $m->openfood->categories;
 
 
 

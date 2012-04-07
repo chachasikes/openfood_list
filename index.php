@@ -58,6 +58,7 @@
   <div id="search">
     <input class="search" type="text" />
     <input class="button" type="submit" value="submit" />
+    <div class="search-string"></div>
   </div>  
 
   <div id="filters">
@@ -69,6 +70,8 @@
 
   <div id="message" class="hide">
   </div>
+
+
 
       <!-- about modal content -->
     <div id="food" class="modal span11 hide">
@@ -115,10 +118,13 @@
               </p>
             </div>
             {{if depiction}}
+
               <div class="image">
+              <a href="${depiction}">
                 <canvas class="image-canvas" id="food-canvas">
                   <img id="food-image" src="${depiction}" alt="${name}" />
-                </canvas>          
+                </canvas>
+              </a>
               </div>
             {{/if}}
           </div>
@@ -151,10 +157,6 @@
       <p><a id="${_id.$id}" href="#food" data-toggle="modal" style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a></p>
     </div>
   </div>
-  
-  
-
-
 </div>
 
 
@@ -190,7 +192,7 @@
     <script src="js/spectrum.js"></script>
     <script src="js/jquery-tmpl/jquery.tmpl.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/foodcards.js"></script>
+    <script src="js/foods.js"></script>
 
 <script type="text/javascript">
 
