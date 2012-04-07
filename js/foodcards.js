@@ -201,9 +201,9 @@ foods.loadCategories = function() {
 };
 
 foods.categoriesLoadSuccess = function(data) {
-
+  var all = {'category':'all'};
   categories = data["categories"];
-
+  categories.unshift(all); 
   itemsContainer = $('div#filters select#categories');
       
  
@@ -232,7 +232,7 @@ foods.categoriesLoadSuccess = function(data) {
     });
   
     var path = "http://localhost/mongofood/api/search.php?category=" + searchValues;
-    console.log(path);
+/*     console.log(path); */
    
     var contentData = path + "&cache=" + Math.floor(Math.random()*11);
     
@@ -255,7 +255,7 @@ foods.categoriesLoadSuccess = function(data) {
 foods.editButtons = function(food) {
   var record = {};
   record.food = foodContent;
-  console.log(foodContent.food_color_background);
+
   $("div.colors .background input.picker").spectrum({
     color: foodContent.food_color_background
   });
@@ -306,8 +306,7 @@ foods.editButtons = function(food) {
 foods.updateRecord = function(record) {
 
     var path = "http://localhost/mongofood/api/update.php";
-    console.log(record);
-    console.log(record.food.nid);   
+
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
   
     $.ajax({
@@ -322,7 +321,6 @@ foods.updateRecord = function(record) {
 };
 
 foods.updateLoadSuccess = function(data, message) {
-  console.log(data);
   foods.loadFood(data.food[0]["_id"]["$id"]);
   foods.userMessage(data.food[0], "Saved");
 };
@@ -365,7 +363,7 @@ foods.imageCrop = function() {
       var count = $(this).attr('count');
       image.context["context" +  count].drawImage(image.img["img" + count], 0, 0,  image.width,  image.height, 0, 0, image.width/2,  image.height/2);     
     }
-    console.log(image);
+
   }
 
 };

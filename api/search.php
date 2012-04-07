@@ -16,12 +16,17 @@ if(!empty($_GET['search'])){
 
 }
 else if(!empty($_GET['category'])){
-  $search_split = explode(",", $_GET['category']);
-  $multiple_searches = implode("|", $search_split);
-
-  $search = new MongoRegex('/'. $multiple_searches . '/i');
-
-  $cursor = $collection->find(array("category" => $search))->limit(1000)->sort(array("name" => 1));
+  if($_GET['category'] === 'all') {
+    $cursor = $collection->find()->limit(1000)->sort(array("name" => 1));
+  }
+  else {
+    $search_split = explode(",", $_GET['category']);
+    $multiple_searches = implode("|", $search_split);
+  
+    $search = new MongoRegex('/'. $multiple_searches . '/i');
+  
+    $cursor = $collection->find(array("category" => $search))->limit(1000)->sort(array("name" => 1));
+  }
 
 }
 
