@@ -22,6 +22,9 @@ $(document).ready(function(){
 
 foods.customizeInitialLoad = function() {
   $("div#search input.search").val("Search for a food");
+  $("div#search input.search").focus(function(){
+  $("div#search input.search").val('');
+  });
 };
 
 foods.loadContent = function() {
@@ -131,7 +134,7 @@ foods.loadFood = function(key) {
       .appendTo(foodContainer);
 
       foods.editButtons(foodContent);
-   
+      foods.imageCrop();   
       break;
     }
 
@@ -330,3 +333,39 @@ foods.userMessage = function(data, message) {
   $('div#message').css('color', '#' + data.food_color_text);
   $('div#message').show().fadeOut(2000);
 }
+
+foods.imageCrop = function() {
+  // Almost, not quite.
+  // Trying to resize and crop images with canvas & javascript.
+  var image  = {};
+  var canvas = ['food-canvas'];
+  var images = ['food-image'];
+  
+  image.canvas = {};
+  image.context = {};
+  image.img = {};
+  image.imageObj = {};
+  
+  for(var i = 0; i < canvas.length; i++) {
+    image.count = i;
+    image.canvas["food-canvas"] = document.getElementById(canvas[i]);
+    image.context["context" + i] = image.canvas["food-canvas"].getContext("2d");
+    image.img["img" + i] = document.getElementById(images[i]);
+    image.imageObj["food-image"] = new Image();
+    $(image.imageObj["food-image"]).attr('count', i);
+
+    $(image.imageObj["food-image"]).attr('width', image.img["img" + i].width);
+
+    $(image.imageObj["food-image"]).attr('height', image.img["img" + i].height);
+    image.imageObj["food-image"].src = image.img["img" + i].src;
+
+    image.imageObj["food-image"].onload = function(){
+      image.width = parseInt($(this).attr('width'));
+      image.height = parseInt($(this).attr('height'));      
+      var count = $(this).attr('count');
+      image.context["context" +  count].drawImage(image.img["img" + count], 0, 0,  image.width,  image.height, 0, 0, image.width/2,  image.height/2);     
+    }
+    console.log(image);
+  }
+
+};

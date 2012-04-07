@@ -113,7 +113,15 @@
               <p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p>
               <input type="radio" name="food_color_text" value="dark"><span>Dark</span><br />
               <input type="radio" name="food_color_text" value="light"><span>Light</span><br />
-              </p></div>
+              </p>
+            </div>
+            {{if depiction}}
+              <div class="image pull1">
+                <canvas class="image-canvas" id="food-canvas">
+                  <img id="food-image" src="${depiction}" alt="${name}" />
+                </canvas>          
+            </div>
+            {{/if}}
           </div>
         </div>
         <hr class="muted">
@@ -129,9 +137,6 @@
             </dd>
   
             {{if updated_date}}<p class="date">Updated: ${updated_date}</p>{{/if}}
-          </div>
-          <div class="image span4">
-            {{if image}}<img src="${image}}" />{{/if}}
           </div>
         </div>
       </div>
