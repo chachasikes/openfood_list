@@ -75,8 +75,11 @@ dd {
   box-shadow: 0 0 10px #888;
 
 }
-.date {
-
+.date p{
+  text-transform: uppercase;
+  font-size: 80%;
+  line-height: normal;
+  margin: 0;
 }
 
 .color .modal-label,

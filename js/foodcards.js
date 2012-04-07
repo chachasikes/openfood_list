@@ -367,3 +367,21 @@ foods.imageCrop = function() {
   }
 
 };
+
+foods.formatDate = function (datetime) {
+
+  var date = new Date(datetime.sec*1000);
+
+  // hours part from the timestamp
+  var hours = date.getHours();
+  // minutes part from the timestamp
+  var minutes = date.getMinutes();
+  // seconds part from the timestamp
+  var seconds = date.getSeconds();
+  
+  // will display time in 10:30:23 format
+  var formattedTime = hours + ':' + minutes + ':' + seconds;
+
+    return date;
+}
+

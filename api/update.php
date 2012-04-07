@@ -9,7 +9,8 @@ if(!empty($food)){
     // Hard coding mappings until figure out mongo syntax.
     $food_obj = array('$set' => array(
       'food_color_background' => $food["food_color_background"],
-      'food_color_text' => $food["food_color_text"]
+      'food_color_text' => $food["food_color_text"],
+      'openfood_update' => new MongoDate(strtotime(date('Y-M-d h:i:s')))
     ));
 
 /*     $food_obj = array('$pushAll' => $food); */

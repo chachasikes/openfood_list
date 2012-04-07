@@ -135,8 +135,10 @@
               {{if in_foodgenome}}<dt>In FoodGenome</dt><dd>Yes. Last checked on ${in_foodgenome}</dd>{{/if}}
               {{if in_foodista}}<dt>In Foodista</dt><dd>Yes. Last checked on ${in_foodista}</dd>{{/if}}
             </dd>
-  
-            {{if updated_date}}<p class="date">Updated: ${updated_date}</p>{{/if}}
+            <div class="date">
+            {{if updated_date}}<p>Created  ${updated_date}</p>{{/if}}
+            {{if openfood_update}}<p>Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
+            </div>
           </div>
         </div>
       </div>
