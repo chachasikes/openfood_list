@@ -30,7 +30,7 @@ foods.customizeInitialLoad = function() {
 };
 
 foods.loadContent = function() {
-  var path = "http://localhost/mongofood/api/foods.php";
+  var path = "api/foods.php";
   var contentData = path + "?cache=" + Math.floor(Math.random()*11);
   
   var data = "";
@@ -165,7 +165,7 @@ foods.searchFood = function() {
   $("div#search input.button").click(function(){
   var searchValue = $("div#search input.search").val();
 
-  var path = "http://localhost/mongofood/api/search.php?search=" + searchValue;
+  var path = "api/search.php?search=" + searchValue;
    console.log(path);
   var contentData = path + "&cache=" + Math.floor(Math.random()*11);
   
@@ -189,7 +189,7 @@ foods.searchFood = function() {
 
 foods.loadCategories = function() {
   
-    var path = "http://localhost/mongofood/api/categories.php";
+    var path = "api/categories.php";
    
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
     
@@ -235,7 +235,7 @@ foods.categoriesLoadSuccess = function(data) {
       i++;    
     });
   
-    var path = "http://localhost/mongofood/api/search.php?category=" + searchValues;
+    var path = "api/search.php?category=" + searchValues;
 /*     console.log(path); */
    
     var contentData = path + "&cache=" + Math.floor(Math.random()*11);
@@ -309,7 +309,7 @@ foods.editButtons = function(food) {
 
 foods.updateRecord = function(record) {
 
-    var path = "http://localhost/mongofood/api/update.php";
+    var path = "api/update.php";
 
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
   
