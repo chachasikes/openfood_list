@@ -14,7 +14,7 @@ $page_items = 500;
 $collection = $m->openfood->foods;
 
 // find everything in the collection
-$cursor = $collection->find()->skip($page_items * $page)->limit($page_items)->sort(array("name" => 1));
+$cursor = $collection->find()->limit($page_items)->sort(array("name" => 1));
 
 /*
 header('Access-Control-Allow-Origin: *.foodcards.org | *.chachaville.com');
