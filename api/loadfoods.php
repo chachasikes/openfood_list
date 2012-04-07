@@ -15,14 +15,16 @@ $file_data = file_get_contents($file_path);
 $json = json_decode($file_data);
 
 $objects = $json->foods;
-$i = 0;
 
+$count = 0;
 foreach ($objects as $obj_load) {
   $obj_load->category_array = explode(",", $obj_load->category);
+
   foreach($obj_load->category_array as $i) {
     $i = trim($i);
   }
   $collection->update(array('nid' => $obj_load->nid), array('$set' => $obj_load), true);
+  $count++;
 }
 
 // find everything in the collection
@@ -60,5 +62,5 @@ $json .= ']}';
 
 echo $json;
 */
-echo "Loaded Foods";
+echo "Loaded " . $count . " Foods";
 ?>
