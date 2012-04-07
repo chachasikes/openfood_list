@@ -7,6 +7,7 @@
   padding: 3px;
   text-transform: uppercase;
   float: left;
+  visibility: hidden;
 }
 .food a {
   width: 200px;

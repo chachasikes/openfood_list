@@ -11,6 +11,7 @@ var itemContainer;
 foods.setup = false;
   
 $(document).ready(function(){
+  foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading Foods", 6000);
   foods.loadContent();
   foods.searchFood();
   foods.loadCategories();
@@ -23,8 +24,9 @@ $(document).ready(function(){
 foods.customizeInitialLoad = function() {
   $("div#search input.search").val("Search for a food");
   $("div#search input.search").focus(function(){
-  $("div#search input.search").val('');
+    $("div#search input.search").val('');
   });
+
 };
 
 foods.loadContent = function() {
@@ -69,14 +71,13 @@ foods.contentLoadSuccess = function(data) {
 
   foods.foodClick();
   
-/* // Isotope
+// Isotope
     $(function(){      
       $('div#foods').isotope({
         itemSelector: '.food',
         layoutMode : 'masonry'
       });
     });
-*/
     
   }
   return false;
@@ -118,6 +119,8 @@ foods.loadFoods = function() {
     $.tmpl("foodsTemplate", foods.content[i])
       .appendTo(foodsContainer); 
   }
+  
+  $('div#foods .food').css('visibility', 'visible');
 
   return false;
 };
@@ -135,6 +138,7 @@ foods.loadFood = function(key) {
 
       foods.editButtons(foodContent);
       foods.imageCrop();   
+
       break;
     }
 
@@ -322,15 +326,14 @@ foods.updateRecord = function(record) {
 
 foods.updateLoadSuccess = function(data, message) {
   foods.loadFood(data.food[0]["_id"]["$id"]);
-  foods.userMessage(data.food[0], "Saved");
+  foods.userMessage(data.food[0], "Saved", 2000);
 };
 
-foods.userMessage = function(data, message) {
+foods.userMessage = function(data, message, duration) {
   $('div#message').html(message);
   $('div#message').css('background-color', '#' + data.food_color_background);
   $('div#message').css('color', '#' + data.food_color_text);
-  $('div#message').show().fadeOut(2000);
-  
+  $('div#message').show().fadeOut(duration);
 }
 
 foods.imageCrop = function() {

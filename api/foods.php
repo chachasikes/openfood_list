@@ -1,11 +1,11 @@
 <?php
 
-// connect
-$m = new Mongo();
+
+include('../../openfoodmongo_authenticate.php');
 $collection = $m->openfood->foods;
 
 // find everything in the collection
-$cursor = $collection->find()->limit(1000)->sort(array("name" => 1));
+$cursor = $collection->find()->limit(500)->sort(array("name" => 1));
 
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 

@@ -1,7 +1,7 @@
 <?php
 
-// connect
-$m = new Mongo();
+
+include('../../openfoodmongo_authenticate.php');
 $categories = $m->openfood->categories;
 $foods = $m->openfood->foods;
 
@@ -14,7 +14,7 @@ if(!empty($_GET['category'])){
 }
 else {
     // Return a list of all categories, which are generated periodically by running category_index.php.
-    $cursor = $categories->find()->limit(1000)->sort(array("category" => 1));    
+    $cursor = $categories->find()->limit(500)->sort(array("category" => 1));    
 }
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 

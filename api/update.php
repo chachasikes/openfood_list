@@ -1,8 +1,10 @@
 <?php
 
 // connect
-$m = new Mongo();
-$collection = $m->openfood->foods;
+
+include('../../openfoodmongo_authenticate.php');
+
+$collection = $m_write->openfood->foods;
 $food = $_POST["food"];
 
 if(!empty($food)){

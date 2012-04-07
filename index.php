@@ -67,7 +67,8 @@
     </select>
   </div>  
 
-
+  <div id="message" class="hide">
+  </div>
 
       <!-- about modal content -->
     <div id="food" class="modal span11 hide">
@@ -76,8 +77,6 @@
         <h2>${name}</h2>
       </div>
       <div class="modal-body">
-        <div id="message" class="hide">
-        </div>
         <div class="row-fluid">
             <div class="names span7">
             <h4>Names</h4>

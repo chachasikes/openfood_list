@@ -1,8 +1,10 @@
 <?php
 
-// connect
-$m = new Mongo();
-$collection = $m->openfood->foods;
+
+include('../../openfoodmongo_authenticate.php');
+
+$collection = $m_write->openfood->foods;
+
 
 // find everything in the collection
 $cursor = $collection->find();
@@ -58,5 +60,5 @@ $json .= ']}';
 
 echo $json;
 */
-echo "done";
+echo "Loaded Foods";
 ?>

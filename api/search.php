@@ -1,7 +1,7 @@
 <?php
 
-// connect
-$m = new Mongo();
+include('../../openfoodmongo_authenticate.php');
+
 $collection = $m->openfood->foods;
 
 // find everything in the collection
@@ -17,7 +17,7 @@ if(!empty($_GET['search'])){
 }
 else if(!empty($_GET['category'])){
   if($_GET['category'] === 'all') {
-    $cursor = $collection->find()->limit(1000)->sort(array("name" => 1));
+    $cursor = $collection->find()->limit(500)->sort(array("name" => 1));
   }
   else {
     $search_split = explode(",", $_GET['category']);
