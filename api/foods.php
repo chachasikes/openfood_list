@@ -16,6 +16,7 @@ $collection = $m->openfood->foods;
 
 // find everything in the collection
 $cursor = $collection->find()->limit($page_items)->sort(array("name" => 1));
+$count = $cursor->count();
 
 /*
 header('Access-Control-Allow-Origin: *.foodcards.org | *.chachaville.com');
@@ -43,7 +44,8 @@ foreach ($cursor as $obj) {
   }
 }
 /* $json .= "," . json_encode(array('count' => $collection->count())); */
-$json .= ']}';
+
+$json .= '], "count" : ' . $count . '}';
 
 echo $json;
 

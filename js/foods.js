@@ -129,6 +129,7 @@ foods.loadFoods = function() {
   
   $('div#foods .food').css('visibility', 'visible');
 
+  $('div.food-count').html("found " + foods.data.count + " foods");
   return false;
 };
 
@@ -247,6 +248,11 @@ foods.categoriesLoadSuccess = function(data) {
       }
       i++;    
     });
+
+
+
+  $('div.search-string').html(searchValues);  
+  $('div.food-count').html("found " + foods.data.count + " foods");
   
     var path = "api/search.php?category=" + searchValues;
 /*     console.log(path); */

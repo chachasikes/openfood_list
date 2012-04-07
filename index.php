@@ -56,9 +56,10 @@
 <div class="content">
 
   <div id="search">
+    <label>Keyword</label>
     <input class="search" type="text" />
     <input class="button" type="submit" value="submit" />
-    <div class="search-string"></div>
+    <div class="search-string"></div><div class="food-count"></div>
   </div>  
 
   <div id="filters">

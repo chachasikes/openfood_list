@@ -53,6 +53,7 @@
 .search-string {
   font-size: 2em;
   font-weight: bold;
+  margin-bottom: 0.5em;
 }
 h3 {
   margin: 5px 0 10px 0;
@@ -89,13 +90,14 @@ dd {
   height: 100%;
 }
 
-
-
+label,
+.food-count,
 .date p{
   text-transform: uppercase;
   font-size: 80%;
   line-height: normal;
-  margin: 0;
+  margin: 0 0 3px 0;
+  color: #888;
 }
 
 .color .modal-label,

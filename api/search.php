@@ -11,11 +11,12 @@ if(!empty($_GET['search'])){
   $multiple_searches = implode("|", $search_split);
   $search = new MongoRegex('/'. $multiple_searches . '/i');
   $cursor = $collection->find(array("name" => $search))->sort(array("name" => 1));
-
+  $count = $cursor->count();
 }
 else if(!empty($_GET['category'])){
   if($_GET['category'] === 'all') {
     $cursor = $collection->find()->sort(array("name" => 1));
+    $count = $collection->find()->count();
   }
   else {
     $search_split = explode(",", $_GET['category']);
@@ -24,6 +25,7 @@ else if(!empty($_GET['category'])){
     $search = new MongoRegex('/'. $multiple_searches . '/i');
   
     $cursor = $collection->find(array("category" => $search))->sort(array("name" => 1));
+    $count = $collection->find(array("category" => $search))->count();
   }
 
 }
@@ -51,7 +53,7 @@ foreach ($cursor as $obj) {
   }
 }
 
-$json .= ']}';
+$json .= '], "count" : ' . $count . '}';
 
 echo $json;
 
