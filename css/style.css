@@ -28,8 +28,9 @@
 }
 
 .modal {
- margin-top: 30px;
- top: 30px;
+  margin-top: 30px;
+  top: 30px;
+  margin-left:-470px; 
 }
 
 #message {
@@ -60,33 +61,39 @@ dd {
   margin: 3px 0 10px 0;
 }
 
-.colors .text {
-
-}
 
 .color {
+  display: block;
+  float: left;
   width: 80px;
   height: 80px;
   border: solid 3px #efefef;
   padding: 20px;
-  margin:  20px 20px 0px 0px;
+  margin:  20px 20px 20px 0px;
   -moz-box-shadow: 0 0 10px #888;
   -webkit-box-shadow: 0 0 10px#888;
   box-shadow: 0 0 10px #888;
-  color: white; text-shadow: #888 0.1em 0.1em 0.1em;
+
+}
+.date {
+
 }
 
-.color .modal-label, .date {
+.color .modal-label,
+.color span {
   text-transform: uppercase;
   font-size: 80%;
+  font-weight: bold;
   line-height: 1em;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: #ddd; text-shadow: 0.1em 0.1em 0 #666;
 }
 
 .color p {
+  text-transform: uppercase;
+  font-size: 120%;
   font-weight: bold;
-  color: white; 
-  text-shadow: #888 0.1em 0.1em 0.1em;
+  color: #ddd; text-shadow: 0.1em 0.1em 0 #666;
 }
 /* Start: Recommended Isotope styles */
 

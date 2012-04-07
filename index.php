@@ -70,7 +70,7 @@
 
 
       <!-- about modal content -->
-    <div id="food" class="modal hide">
+    <div id="food" class="modal span11 hide">
       <div class="modal-header">
         <a class="close" data-dismiss="modal" >&times;</a>
         <h2>${name}</h2>
@@ -78,52 +78,62 @@
       <div class="modal-body">
         <div id="message" class="hide">
         </div>
- 
-        <h4>Names</h4>
-        <dd>
-          {{if name}}<dt>Long Common Name</dt><dd>${name}</dd>{{/if}}
-          {{if simple_name}}<dt>Simple Common Name</dt><dd>${simple_name}</dd>{{/if}}
-          {{if scientific_name}}<dt>Scientific Name</dt><dd>${scientific_name}</dd>{{/if}}
-          {{if variety}}<dt>Variety</dt><dd>${variety}</dd>{{/if}}
-          {{if alternate_names}}<dt>Alternate Names</dt><dd>${alternate_names}</dd>{{/if}}
-        </dd>
-        {{if category}}
-        <h4>Categories</h4>
-        <div class="categories">
-          ${category}
-        </div>
-        {{/if}}
-
-        {{if description}}
-        <h4>Description</h4>
-        <div class="description">
-          ${description}
-        </div>
-        {{/if}}
-        <div class="colors">
-          <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
-            <div class="modal-label">Background Color</div>
-            <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
-            <input class="picker" value="{{if food_color_background}}#${food_color_background}{{/if}}" />
-          </p></div>
-          <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
-            <div class="modal-label">Text Color</div>
-            <p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p>
-            <input type="radio" name="food_color_text" value="dark"> Dark<br />
-            <input type="radio" name="food_color_text" value="light"> Light<br />
+        <div class="row-fluid">
+            <div class="names span7">
+            <h4>Names</h4>
+            <dd>
+              {{if name}}<dt>Long Common Name</dt><dd>${name}</dd>{{/if}}
+              {{if simple_name}}<dt>Simple Common Name</dt><dd>${simple_name}</dd>{{/if}}
+              {{if scientific_name}}<dt>Scientific Name</dt><dd>${scientific_name}</dd>{{/if}}
+              {{if variety}}<dt>Variety</dt><dd>${variety}</dd>{{/if}}
+              {{if alternate_names}}<dt>Alternate Names</dt><dd>${alternate_names}</dd>{{/if}}
+            </dd>
+            {{if category}}
+            <h4>Categories</h4>
+            <div class="categories">
+              ${category}
+            </div>
+            {{/if}}
+    
+            {{if description}}
+            <h4>Description</h4>
+            <div class="description">
+              ${description}
+            </div>
+            {{/if}}
+          </div>
+           <div class="colors span4">
+            <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
+              <div class="modal-label">Background Color</div>
+              <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
+              <input class="picker" value="{{if food_color_background}}#${food_color_background}{{/if}}" />
             </p></div>
+            <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
+              <div class="modal-label">Text Color</div>
+              <p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p>
+              <input type="radio" name="food_color_text" value="dark"><span>Dark</span><br />
+              <input type="radio" name="food_color_text" value="light"><span>Light</span><br />
+              </p></div>
+          </div>
         </div>
-
-
-        <h4>Data Source & Crosswalks</h4>
-        <p>Data is cross-referenced and aggregated from a number of different sources. This dataset may be modified from the original reference.</p>
-        <dd>
-          <dt>Data Source</dt><dd>{{if datasource}}${datasource}{{else}}Mixed{{/if}}</dd>
-          {{if freebase_id}}<dt>Freebase ID</dt><dd>${freebase_id}</dd>{{/if}}
-          {{if in_foodgenome}}<dt>In FoodGenome</dt><dd>Yes. Last checked on ${in_foodgenome}</dd>{{/if}}
-          {{if in_foodista}}<dt>In Foodista</dt><dd>Yes. Last checked on ${in_foodista}</dd>{{/if}}
-        </dd>
-        {{if updated_date}}<p class="date">Updated: ${updated_date}</p>{{/if}}
+        <hr class="muted">
+        <div class="row-fluid">
+          <div class="data span7">
+            <h4>Data Source & Crosswalks</h4>
+            <p>Data is cross-referenced and aggregated from a number of different sources. This dataset may be modified from the original reference.</p>
+            <dd>
+              <dt>Data Source</dt><dd>{{if datasource}}${datasource}{{else}}Mixed{{/if}}</dd>
+              {{if freebase_id}}<dt>Freebase ID</dt><dd>${freebase_id}</dd>{{/if}}
+              {{if in_foodgenome}}<dt>In FoodGenome</dt><dd>Yes. Last checked on ${in_foodgenome}</dd>{{/if}}
+              {{if in_foodista}}<dt>In Foodista</dt><dd>Yes. Last checked on ${in_foodista}</dd>{{/if}}
+            </dd>
+  
+            {{if updated_date}}<p class="date">Updated: ${updated_date}</p>{{/if}}
+          </div>
+          <div class="image span4">
+            {{if image}}<img src="${image}}" />{{/if}}
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
         <a href="#" class="btn" data-dismiss="modal" >Close</a>
