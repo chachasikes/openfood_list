@@ -7,7 +7,7 @@ $collection = $m->openfood->foods;
 // find everything in the collection
 $cursor = $collection->find();
 
-$file_path = '../data/foods.updated.json';
+$file_path = '../data/openfood_all.json';
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
 
