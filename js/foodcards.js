@@ -294,7 +294,6 @@ foods.updateRecord = function(record) {
     console.log(record);
    
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
-
   
     $.ajax({
       url:  contentData,
@@ -307,7 +306,16 @@ foods.updateRecord = function(record) {
 
 };
 
-foods.updateLoadSuccess = function(data) {
+foods.updateLoadSuccess = function(data, message) {
   console.log(data);
-/*   foods.loadFood(data["_id"]["$id"]); */
+  foods.loadFood(data.food[0]["_id"]["$id"]);
+  foods.userMessage(data.food[0], "Saved");
 };
+
+foods.userMessage = function(data, message) {
+console.log(data);
+  $('div#message').html(message);
+  $('div#message').css('background-color', '#' + data.food_color_background);
+  $('div#message').css('color', '#' + data.food_color_text);
+  $('div#message').show().fadeOut(2000);
+}

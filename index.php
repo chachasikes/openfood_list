@@ -67,6 +67,8 @@
     </select>
   </div>  
 
+
+
       <!-- about modal content -->
     <div id="food" class="modal hide">
       <div class="modal-header">
@@ -74,6 +76,9 @@
         <h2>${name}</h2>
       </div>
       <div class="modal-body">
+        <div id="message" class="hide">
+        </div>
+ 
         <h4>Names</h4>
         <dd>
           {{if name}}<dt>Long Common Name</dt><dd>${name}</dd>{{/if}}

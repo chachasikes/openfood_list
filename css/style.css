@@ -32,6 +32,23 @@
  top: 30px;
 }
 
+#message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 40px;
+  background-color: #000;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+  color: #fff;
+  width: 20%;
+  height: auto;
+  z-index: 5000;
+  font-size: 200%;
+}
+
 h3 {
   margin: 5px 0 10px 0;
 }
