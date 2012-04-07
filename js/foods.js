@@ -368,8 +368,10 @@ foods.imageCrop = function() {
   image.imageObj = {};
   
   image.img["img"] = document.getElementById(images[0]);
+  image.canvas["food-canvas"] = document.getElementById(canvas[0]);
+  
   if(image.img["img"] !== undefined && image.canvas["food-canvas"] !== undefined) {
-    image.canvas["food-canvas"] = document.getElementById(canvas[0]);
+
     image.context["context"] = image.canvas["food-canvas"].getContext("2d");
 
     image.imageObj["food-image"] = new Image();
@@ -377,7 +379,7 @@ foods.imageCrop = function() {
     $(image.imageObj["food-image"]).attr('height', image.img["img"].height);
     
     image.imageObj["food-image"].src = image.img["img"].src;
-
+    
     image.imageObj["food-image"].onload = function(){
       image.width = parseInt($(this).attr('width'));
       image.height = parseInt($(this).attr('height'));      
