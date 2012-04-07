@@ -93,9 +93,7 @@ foods.contentLoadSuccess = function(data) {
 foods.foodClick = function() {
 
   $("div#foods div.food a").click(function(){
-      var food_id = $(this).attr("id"); 
-
-
+      var food_id = $(this).attr("id");
       foods.loadFood(food_id);
     }
   );
@@ -134,11 +132,12 @@ foods.loadFoods = function() {
 };
 
 foods.loadFood = function(key) {
+console.log("key " + key);
   for (var i in foods.content) {  
     if(foods.content[i]["_id"] !== null && foods.content[i]['_id']['$id'] == key) {
 
       foodContainer.empty();
-      
+
       foodContent = foods.content[i];
 
       $.tmpl("foodTemplate", foodContent )
@@ -251,11 +250,10 @@ foods.categoriesLoadSuccess = function(data) {
 
 
 
-  $('div.search-string').html(searchValues);  
-  $('div.food-count').html("found " + foods.data.count + " foods");
-  
+    $('div.search-string').html(searchValues);  
+    $('div.food-count').html("found " + foods.data.count + " foods");
+    
     var path = "api/search.php?category=" + searchValues;
-/*     console.log(path); */
    
     var contentData = path + "&cache=" + Math.floor(Math.random()*11);
     
@@ -280,10 +278,7 @@ foods.editButtons = function(food) {
   record.food = foodContent;
 
   $("div.colors .background input.picker").spectrum({
-    color: foodContent.food_color_background
-  });
-
-  $("div.colors .background input.picker").spectrum({
+    color: foodContent.food_color_background,
     change: function(color) {
       var record = {};
       record.food = foodContent;
@@ -312,6 +307,7 @@ foods.editButtons = function(food) {
   $("div.colors .text input[name=food_color_text]").change(function() {
     var record = {};
     record.food = foodContent;
+
     var currentColor = $(this).val();
     if(currentColor == 'dark') {
       record.food.food_color_text = '131313';
@@ -320,18 +316,19 @@ foods.editButtons = function(food) {
       record.food.food_color_text = 'EEEFE6';
     }
 
-      $("div#foods .food a#" + record.food["_id"]["$id"]).css("color", "#" + record.food.food_color_text);
+    $("div#foods .food a#" + record.food["_id"]["$id"]).css("color", "#" + record.food.food_color_text);
 
     foods.updateRecord(record);
   });
 };
 
 foods.updateRecord = function(record) {
-
+    var record = record;
     var path = "api/update.php";
 
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
-  
+
+
     $.ajax({
       url:  contentData,
       type: 'POST',
@@ -344,8 +341,13 @@ foods.updateRecord = function(record) {
 };
 
 foods.updateLoadSuccess = function(data, message) {
-  foods.loadFood(data.food[0]["_id"]["$id"]);
-  foods.userMessage(data.food[0], "Saved", 2000);
+console.log("callback returned");
+  console.log(data);
+  if(data.food[0] !== null) {
+    foods.loadFood(data.food[0]["_id"]["$id"]);
+    foods.userMessage(data.food[0], "Saved", 2000);
+  }
+
 };
 
 foods.userMessage = function(data, message, duration) {

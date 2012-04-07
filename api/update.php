@@ -8,7 +8,6 @@ $collection = $m->openfood->foods;
 
 if(!empty($_POST["food"])){
   $food = $_POST["food"];
-  
   // Hard coding mappings until figure out mongo syntax.
   $food_obj = array('$set' => array(
     'food_color_background' => $food["food_color_background"],
@@ -30,12 +29,12 @@ $json = '{"food": [' ;
 
 // iterate through the results
 foreach ($cursor as $record) {
-  if(!empty($record->name)) {
+/*   if(!empty($record->name)) { */
     $json .= json_encode($record);
-  }
+/*   } */
 }
 
-$json .= '], "nid": ' . $food['nid'] . '}';
+$json .= ']}';
 
 echo $json;
 }
