@@ -1,6 +1,5 @@
 // Functions and namespace for this app.
 var foods = {};
-var page = 5;
 var foodsContainer;
 var foodsMarkup;
 var foodContainer;
@@ -8,10 +7,13 @@ var foodMarkup;
 var foodContent;
 var categories;
 var itemContainer;
+foods.page = 0;
+foods.maxPages = 1;
+foods.itemsPerPage = 500;
 foods.setup = false;
 
 $(document).ready(function(){
-  foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading Foods", 6000);
+  foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading Foods", 3000);
   foods.loadContent();
   foods.searchFood();
   foods.loadCategories();
@@ -30,6 +32,7 @@ foods.customizeInitialLoad = function() {
 
 foods.loadContent = function() {
   var path = "api/foods.php";
+  var page = foods.page;
   var contentData = path + "?page=" + page + "&cache=" + Math.floor(Math.random()*11);
 
   var data = "";
@@ -114,10 +117,28 @@ foods.setupLoadFoods = function() {
   $.template( "foodTemplate", foodMarkup );
 
   foods.setup = true;
+
+  if(foods.data.count !== undefined) {
+    foods.maxPages = Math.floor(foods.data.count / foods.itemsPerPage);
+  }
+
+	$(window).scroll(function(){
+  	var scrolledDistance =  $(document).height() - $(window).height() - 1;
+  	 if($(window).scrollTop() == scrolledDistance ){
+  	  if(foods.page < foods.maxPages) {
+        foods.page++;
+        foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading More Foods", 6000);
+        foods.loadContent();
+        }
+  	 }
+  }); 
+
 };
 
 foods.loadFoods = function() {
-  foodsContainer.empty();
+  if(foods.page == 0) {
+    foodsContainer.empty();
+  }
   for (var i in foods.content) {
     $.tmpl("foodsTemplate", foods.content[i])
       .appendTo(foodsContainer);
@@ -129,8 +150,11 @@ foods.loadFoods = function() {
   return false;
 };
 
+foods.loadMoreFoods = function(page) {
+  console.log("laoding more");
+}
+
 foods.loadFood = function(key) {
-console.log("key " + key);
   for (var i in foods.content) {
     if(foods.content[i]["_id"] !== null && foods.content[i]['_id']['$id'] == key) {
 
@@ -195,7 +219,6 @@ foods.searchFoodQuery = function(){
 }
 
 foods.loadCategories = function() {
-
     var path = "api/categories.php";
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
     var data = "";
@@ -335,7 +358,7 @@ foods.userMessage = function(data, message, duration) {
   $('div#message').html(message);
   $('div#message').css('background-color', '#' + data.food_color_background);
   $('div#message').css('color', '#' + data.food_color_text);
-  $('div#message').show().fadeOut(duration);
+  $('div#message').show().fadeOut(duration, 'easeOutBack');
 }
 
 foods.imageCrop = function() {

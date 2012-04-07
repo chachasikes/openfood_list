@@ -198,7 +198,8 @@
 
     <script src="js/spectrum.js"></script>
     <script src="js/jquery-tmpl/jquery.tmpl.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.effects.core.js"></script>
+<!--     <script src="js/jquery.isotope.min.js"></script> -->
     <script src="js/foods.js"></script>
 
 <script type="text/javascript">
