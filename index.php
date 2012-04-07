@@ -102,7 +102,7 @@
             </div>
             {{/if}}
           </div>
-           <div class="colors span4">
+           <div class="colors span4 rowfluid">
             <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
               <div class="modal-label">Background Color</div>
               <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
@@ -116,11 +116,11 @@
               </p>
             </div>
             {{if depiction}}
-              <div class="image pull1">
+              <div class="image">
                 <canvas class="image-canvas" id="food-canvas">
                   <img id="food-image" src="${depiction}" alt="${name}" />
                 </canvas>          
-            </div>
+              </div>
             {{/if}}
           </div>
         </div>
@@ -136,8 +136,8 @@
               {{if in_foodista}}<dt>In Foodista</dt><dd>Yes. Last checked on ${in_foodista}</dd>{{/if}}
             </dd>
             <div class="date">
-            {{if updated_date}}<p>Created  ${updated_date}</p>{{/if}}
-            {{if openfood_update}}<p>Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
+            {{if updated_date}}<p class="created">Created  ${updated_date}</p>{{/if}}
+            {{if openfood_update}}<p class="updated">Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
             </div>
           </div>
         </div>

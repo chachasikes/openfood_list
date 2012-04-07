@@ -330,6 +330,7 @@ foods.userMessage = function(data, message) {
   $('div#message').css('background-color', '#' + data.food_color_background);
   $('div#message').css('color', '#' + data.food_color_text);
   $('div#message').show().fadeOut(2000);
+  
 }
 
 foods.imageCrop = function() {
@@ -361,7 +362,7 @@ foods.imageCrop = function() {
       image.width = parseInt($(this).attr('width'));
       image.height = parseInt($(this).attr('height'));      
       var count = $(this).attr('count');
-      image.context["context" +  count].drawImage(image.img["img" + count], 0, 0,  image.width,  image.height, 0, 0, image.width/2,  image.height/2);     
+      image.context["context" +  count].drawImage(image.img["img" + count], 0, 0,  image.width,  image.height, 0, 0, image.width,  image.height);     
     }
 
   }

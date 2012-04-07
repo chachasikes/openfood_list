@@ -73,8 +73,15 @@ dd {
   -moz-box-shadow: 0 0 10px #888;
   -webkit-box-shadow: 0 0 10px#888;
   box-shadow: 0 0 10px #888;
-
 }
+.image canvas {
+  padding: 5px;
+  border: solid 3px #efefef;
+  -moz-box-shadow: 0 0 10px #888;
+  -webkit-box-shadow: 0 0 10px#888;
+  box-shadow: 0 0 10px #888;
+}
+
 .date p{
   text-transform: uppercase;
   font-size: 80%;
