@@ -269,9 +269,16 @@ foods.editButtons = function(food) {
     }
   });
 
-  $("div.colors .text input.picker").spectrum({
-      color: food.food_color_text
-  });
+
+    var currentColor =  food.food_color_text;
+
+    if(currentColor == '131313') {
+      $('div.colors .text input[name=food_color_text]:nth(0)').attr('checked',true);
+    }
+    if(currentColor == 'EEEFE6') {
+
+      $('div.colors .text input[name=food_color_text]:nth(1)').attr('checked',true);
+    }
 
 
   $("div.colors .text input[name=food_color_text]").change(function() {
