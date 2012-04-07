@@ -89,7 +89,6 @@ dd {
   width: 100%;
   height: 100%;
 }
-
 label,
 .food-count,
 .date p{
@@ -99,6 +98,16 @@ label,
   margin: 0 0 3px 0;
   color: #888;
 }
+
+footer {
+  margin-top: 40px;
+  background-color: #efefef;
+  padding: 5px;
+  font-size: 80%;
+  line-height: normal;
+  color: #888;
+}
+
 
 .color .modal-label,
 .color span {
@@ -117,6 +126,7 @@ label,
   color: #ddd; text-shadow: 0.1em 0.1em 0 #666;
 }
 /* Start: Recommended Isotope styles */
+
 
 /**** Isotope Filtering ****/
 

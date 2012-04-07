@@ -159,12 +159,17 @@
       <p><a id="${_id.$id}" href="#food" data-toggle="modal" style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a></p>
     </div>
   </div>
+  <div class="buffer"></div>
 </div>
 
 
      <!-- Footer
       ================================================== -->
-      <footer class="footer">
+      <footer class="footer span11">
+        <p>April 7, 2012. <strong>This is a prototype</strong> of a tool to view and manage community contributed information about fresh & perishable foods.</strong></p>
+        <p>Created as part of <a href="http://open-food.org">Open Food</a> Data -- promoting increased transparency & availability for healthy food data. 
+        And also, <a href="http://foodcards.org">FoodCards</a></p>
+        <p>Best viewed in Chrome.</p>
      </footer>
 
     </div><!-- /container -->

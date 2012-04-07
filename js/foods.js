@@ -9,7 +9,7 @@ var foodContent;
 var categories;
 var itemContainer;
 foods.setup = false;
-  
+
 $(document).ready(function(){
   foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading Foods", 6000);
   foods.loadContent();
@@ -17,7 +17,7 @@ $(document).ready(function(){
   foods.loadCategories();
 
   foods.customizeInitialLoad();
-  
+
 });
 
 
@@ -26,14 +26,12 @@ foods.customizeInitialLoad = function() {
   $("div#search input.search").focus(function(){
     $("div#search input.search").val('');
   });
-
 };
-
 
 foods.loadContent = function() {
   var path = "api/foods.php";
   var contentData = path + "?page=" + page + "&cache=" + Math.floor(Math.random()*11);
-  
+
   var data = "";
 
   $.ajax({
@@ -66,26 +64,28 @@ foods.contentLoadSuccess = function(data) {
       foods.loadFoods();
     }
     else {
-      foods.loadFoods();   
+      foods.loadFoods();
     }
 
 
   foods.foodClick();
-  
+
   // Isotope
 
   if($('div#foods .food').length > 0) {
-    $(function(){      
+/*
+    $(function(){
       $('div#foods').isotope({
         itemSelector: '.food',
         layoutMode : 'masonry'
       });
-    });    
+    });
+*/
   }
   else {
     foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "No results found", 10000);
   }
-    
+
   }
   return false;
 };
@@ -107,24 +107,22 @@ foods.setupLoadFoods = function() {
   foodContent = {};
 
   foodsContainer.empty();
-  $.template( "foodsTemplate", foodsMarkup );  
+  $.template( "foodsTemplate", foodsMarkup );
 
   foodContainer = $('div#food');
   foodMarkup = foodContainer.html();
-  $.template( "foodTemplate", foodMarkup ); 
+  $.template( "foodTemplate", foodMarkup );
 
   foods.setup = true;
-
 };
-
 
 foods.loadFoods = function() {
   foodsContainer.empty();
   for (var i in foods.content) {
     $.tmpl("foodsTemplate", foods.content[i])
-      .appendTo(foodsContainer); 
+      .appendTo(foodsContainer);
   }
-  
+
   $('div#foods .food').css('visibility', 'visible');
 
   $('div.food-count').html("found " + foods.data.count + " foods");
@@ -133,7 +131,7 @@ foods.loadFoods = function() {
 
 foods.loadFood = function(key) {
 console.log("key " + key);
-  for (var i in foods.content) {  
+  for (var i in foods.content) {
     if(foods.content[i]["_id"] !== null && foods.content[i]['_id']['$id'] == key) {
 
       foodContainer.empty();
@@ -144,38 +142,35 @@ console.log("key " + key);
       .appendTo(foodContainer);
 
       foods.editButtons(foodContent);
-      foods.imageCrop();   
+      foods.imageCrop();
 
       break;
     }
-
   }
-
-  return false;  
+  return false;
 };
 
 foods.loadData = function(content, source) {
   var data = {};
-  for (var i in foods.content) {  
+  for (var i in foods.content) {
 
     if(foods.content[i].source_data !== null && foods.content[i].source_data !== undefined && source !== undefined) {
       if(foods.content[i].source_data[source] !== undefined) {
         data = foods.content[i].source_data[source];
       return data;
       }
-
     }
   }
 };
 
 foods.searchFood = function() {
-    $("div#search input.search").keypress(function(e) {
-      // On hit enter
-      if ( e.which == 13 ) {
-        foods.searchFoodQuery();
-      }
-    });
-   $("div#search input.button").click(foods.searchFoodQuery);
+  $("div#search input.search").keypress(function(e) {
+    // On hit enter
+    if ( e.which == 13 ) {
+      foods.searchFoodQuery();
+    }
+  });
+ $("div#search input.button").click(foods.searchFoodQuery);
 }
 
 foods.searchFoodQuery = function(){
@@ -185,7 +180,7 @@ foods.searchFoodQuery = function(){
   var path = "api/search.php?search=" + searchValue;
    console.log(path);
   var contentData = path + "&cache=" + Math.floor(Math.random()*11);
-  
+
   var data = "";
 
   $.ajax({
@@ -196,18 +191,15 @@ foods.searchFoodQuery = function(){
     error: foods.loadDataError
   });
 
-
   return false;
 }
 
 foods.loadCategories = function() {
-  
+
     var path = "api/categories.php";
-   
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
-    
     var data = "";
-  
+
     $.ajax({
       url:  contentData,
       dataType: 'json',
@@ -220,45 +212,39 @@ foods.loadCategories = function() {
 foods.categoriesLoadSuccess = function(data) {
   var all = {'category':'all'};
   categories = data["categories"];
-  categories.unshift(all); 
+  categories.unshift(all);
   itemsContainer = $('div#filters select#categories');
-      
- 
+
   var itemsMarkup = itemsContainer.html();
   itemsContainer.empty();
-  $.template( "itemsTemplate", itemsMarkup ); 
-  
-  
+  $.template( "itemsTemplate", itemsMarkup );
+
   $.tmpl("itemsTemplate", categories)
   .appendTo(itemsContainer);
 
-
-
   $("div#filters").change(function(){
- 
+
     var searchValues = '';
     var numberSelected = $("select#categories option:selected").length;
     var i = 0;
-  
+
     $("select#categories option:selected").each(function () {
       searchValues += $(this).text().trim();
       if(i < numberSelected - 1) {
         searchValues += ",";
       }
-      i++;    
+      i++;
     });
 
-
-
-    $('div.search-string').html(searchValues);  
+    $('div.search-string').html(searchValues);
     $('div.food-count').html("found " + foods.data.count + " foods");
-    
+
     var path = "api/search.php?category=" + searchValues;
-   
+
     var contentData = path + "&cache=" + Math.floor(Math.random()*11);
-    
+
     var data = "";
-  
+
     $.ajax({
       url:  contentData,
       dataType: 'json',
@@ -266,10 +252,8 @@ foods.categoriesLoadSuccess = function(data) {
       success: foods.contentLoadSuccess,
       error: foods.loadDataError
     });
-  
-  
+
     return false;
-  
   });
 }
 
@@ -293,15 +277,15 @@ foods.editButtons = function(food) {
   });
 
 
-    var currentColor =  food.food_color_text;
+  var currentColor =  food.food_color_text;
 
-    if(currentColor == '131313') {
-      $('div.colors .text input[name=food_color_text]:nth(0)').attr('checked',true);
-    }
-    if(currentColor == 'EEEFE6') {
+  if(currentColor == '131313') {
+    $('div.colors .text input[name=food_color_text]:nth(0)').attr('checked',true);
+  }
+  if(currentColor == 'EEEFE6') {
 
-      $('div.colors .text input[name=food_color_text]:nth(1)').attr('checked',true);
-    }
+    $('div.colors .text input[name=food_color_text]:nth(1)').attr('checked',true);
+  }
 
 
   $("div.colors .text input[name=food_color_text]").change(function() {
@@ -341,13 +325,10 @@ foods.updateRecord = function(record) {
 };
 
 foods.updateLoadSuccess = function(data, message) {
-console.log("callback returned");
-  console.log(data);
   if(data.food[0] !== null) {
     foods.loadFood(data.food[0]["_id"]["$id"]);
     foods.userMessage(data.food[0], "Saved", 2000);
   }
-
 };
 
 foods.userMessage = function(data, message, duration) {
@@ -363,15 +344,15 @@ foods.imageCrop = function() {
   var image  = {};
   var canvas = ['food-canvas'];
   var images = ['food-image'];
-  
+
   image.canvas = {};
   image.context = {};
   image.img = {};
   image.imageObj = {};
-  
+
   image.img["img"] = document.getElementById(images[0]);
   image.canvas["food-canvas"] = document.getElementById(canvas[0]);
-  
+
   if(image.img["img"] !== undefined && image.canvas["food-canvas"] !== undefined) {
 
     image.context["context"] = image.canvas["food-canvas"].getContext("2d");
@@ -379,31 +360,26 @@ foods.imageCrop = function() {
     image.imageObj["food-image"] = new Image();
     $(image.imageObj["food-image"]).attr('width', image.img["img"].width);
     $(image.imageObj["food-image"]).attr('height', image.img["img"].height);
-    
+
     image.imageObj["food-image"].src = image.img["img"].src;
-    
+
     image.imageObj["food-image"].onload = function(){
       image.width = parseInt($(this).attr('width'));
-      image.height = parseInt($(this).attr('height'));      
-      image.context["context"].drawImage(image.img["img"], image.width * -0.1,  image.height * -0.5,  image.width,  image.height);     
+      image.height = parseInt($(this).attr('height'));
+      image.context["context"].drawImage(image.img["img"], image.width * -0.1,  image.height * -0.5,  image.width,  image.height);
     }
   }
 };
 
 foods.formatDate = function (datetime) {
-
   var date = new Date(datetime.sec*1000);
-
   // hours part from the timestamp
   var hours = date.getHours();
   // minutes part from the timestamp
   var minutes = date.getMinutes();
   // seconds part from the timestamp
   var seconds = date.getSeconds();
-  
   // will display time in 10:30:23 format
   var formattedTime = hours + ':' + minutes + ':' + seconds;
-
-    return date;
-}
-
+  return date;
+};
