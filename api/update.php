@@ -15,7 +15,7 @@ if(!empty($_POST["food"])){
     'openfood_update' => new MongoDate(strtotime(date('Y-M-d h:i:s')))
   ));
 
-  $collection->update(array('nid' => (int) $food["nid"]), $food_obj, array("upsert" => false, "multiple" => true));
+  $collection->update(array('nid' => (int) $food["nid"]), $food_obj, array("upsert" => false, "multiple" => false));
   $cursor = $collection->find(array('nid' => (int) $food["nid"]));
 
 header('Access-Control-Allow-Origin: *.foodcards.org | *.chachaville.com');

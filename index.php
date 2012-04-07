@@ -144,6 +144,7 @@
             <div class="date">
             {{if updated_date}}<p class="created">Created  ${updated_date}</p>{{/if}}
             {{if openfood_update}}<p class="updated">Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
+            {{if nid}}<p>${nid}</p>{{/if}}
             </div>
           </div>
         </div>
