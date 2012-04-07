@@ -1,6 +1,6 @@
 // Functions and namespace for this app.
 var foods = {};
-  
+var page = 5;
 var foodsContainer;
 var foodsMarkup;
 var foodContainer;
@@ -31,7 +31,7 @@ foods.customizeInitialLoad = function() {
 
 foods.loadContent = function() {
   var path = "api/foods.php";
-  var contentData = path + "?cache=" + Math.floor(Math.random()*11);
+  var contentData = path + "?page=" + page + "&cache=" + Math.floor(Math.random()*11);
   
   var data = "";
 
@@ -54,7 +54,7 @@ foods.loadDataError = function(data) {
 foods.contentLoadSuccess = function(data) {
   foods.data = data;
   foods.content = data["foods"];
-
+console.log(foods.content.count);
   if(window.location.hash !== "") {
     hash = window.location.hash.replace('#', '');
     foods.loadFood(hash);
@@ -347,29 +347,29 @@ foods.imageCrop = function() {
   image.context = {};
   image.img = {};
   image.imageObj = {};
+  if(image.img["img" + i] !== undefined) {
+    for(var i = 0; i < canvas.length; i++) {
+      image.count = i;
+      image.canvas["food-canvas"] = document.getElementById(canvas[i]);
+      image.context["context" + i] = image.canvas["food-canvas"].getContext("2d");
+      image.img["img" + i] = document.getElementById(images[i]);
+      image.imageObj["food-image"] = new Image();
+      $(image.imageObj["food-image"]).attr('count', i);
   
-  for(var i = 0; i < canvas.length; i++) {
-    image.count = i;
-    image.canvas["food-canvas"] = document.getElementById(canvas[i]);
-    image.context["context" + i] = image.canvas["food-canvas"].getContext("2d");
-    image.img["img" + i] = document.getElementById(images[i]);
-    image.imageObj["food-image"] = new Image();
-    $(image.imageObj["food-image"]).attr('count', i);
+      $(image.imageObj["food-image"]).attr('width', image.img["img" + i].width);
+  
+      $(image.imageObj["food-image"]).attr('height', image.img["img" + i].height);
+      image.imageObj["food-image"].src = image.img["img" + i].src;
+  
+      image.imageObj["food-image"].onload = function(){
+        image.width = parseInt($(this).attr('width'));
+        image.height = parseInt($(this).attr('height'));      
+        var count = $(this).attr('count');
+        image.context["context" +  count].drawImage(image.img["img" + count], 0, 0,  image.width,  image.height, 0, 0, image.width,  image.height);     
+      }
 
-    $(image.imageObj["food-image"]).attr('width', image.img["img" + i].width);
-
-    $(image.imageObj["food-image"]).attr('height', image.img["img" + i].height);
-    image.imageObj["food-image"].src = image.img["img" + i].src;
-
-    image.imageObj["food-image"].onload = function(){
-      image.width = parseInt($(this).attr('width'));
-      image.height = parseInt($(this).attr('height'));      
-      var count = $(this).attr('count');
-      image.context["context" +  count].drawImage(image.img["img" + count], 0, 0,  image.width,  image.height, 0, 0, image.width,  image.height);     
     }
-
   }
-
 };
 
 foods.formatDate = function (datetime) {

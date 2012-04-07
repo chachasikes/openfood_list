@@ -38,7 +38,7 @@ $cursor = $collection->find();
 // $cursor = $collection->find()->limit(300);
 
 // Print data
-header('Access-Control-Allow-Origin: *.chachaville.com');
+header('Access-Control-Allow-Origin: *.foodcards.org | *.chachaville.com');
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT"); 
 header("Cache-Control: no-cache, must-revalidate"); 
