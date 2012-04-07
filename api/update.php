@@ -6,11 +6,17 @@ $collection = $m->openfood->foods;
 $food = $_POST["food"];
 
 if(!empty($food)){
-/*     $collection->update(array('_id' => $food->_id->$id), array('$set' => $food), true); */
+    // Hard coding mappings until figure out mongo syntax.
+    $food_obj = array('$set' => array(
+      'food_color_background' => $food["food_color_background"],
+      'food_color_text' => $food["food_color_text"]
+    ));
+
+/*     $food_obj = array('$pushAll' => $food); */
+/*     $food_obj = array('$each' => $food); */
+    $collection->update(array('nid' => (int) $food["nid"]), $food_obj, array("upsert" => false, "multiple" => true));
+/*     $collection->save($food); */
     $cursor = $collection->find(array('nid' => (int) $food["nid"]));
-
-/* echo $food["_id"]['$id']; */
-
 
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT"); 
@@ -22,9 +28,9 @@ $json = '{"food": [' ;
 
 // iterate through the results
 foreach ($cursor as $record) {
-  if(!empty($record->name)) {
-    $json .= json_encode($food);
-  }
+/*   if(!empty($record->name)) { */
+    $json .= json_encode($record);
+/*   } */
 }
 
 $json .= ']}';

@@ -252,26 +252,29 @@ foods.categoriesLoadSuccess = function(data) {
 
 foods.editButtons = function(food) {
   var record = {};
-  record.food = food;
-$("div.colors .background input.picker").spectrum({
-    color: food.food_color_background
-    });
+  record.food = foodContent;
+  $("div.colors .background input.picker").spectrum({
+    color: record.food.food_color_background
+  });
 
-$("div.colors .background input.picker").spectrum({
+  $("div.colors .background input.picker").spectrum({
     change: function(color) {
-        var newColor = color.toHexString();
-        newColor.replace(/^#+/, "");
-        record.food_background_color = newColor;
-        console.log(newColor);
-      }
-    });
+      var record = {};
+      record.food = foodContent;
+      var newColor = color.toHexString();
+      newColor = newColor.replace('#', "");
+      record.food.food_color_background = newColor;
 
-$("div.colors .text input.picker").spectrum({
-    color: food.food_color_background
-});
+      foods.updateRecord(record);
+    }
+  });
+
+  $("div.colors .text input.picker").spectrum({
+      color: food.food_color_text
+  });
 
 
-$("div.colors .text input[name=food_color_text]").change(function() {
+  $("div.colors .text input[name=food_color_text]").change(function() {
     var record = {};
     record.food = foodContent;
     var currentColor = $(this).val();
@@ -282,17 +285,15 @@ $("div.colors .text input[name=food_color_text]").change(function() {
       record.food.food_color_text = 'EEEFE6';
     }
 
-
     foods.updateRecord(record);
   });
-
 };
 
 foods.updateRecord = function(record) {
 
     var path = "http://localhost/mongofood/api/update.php";
     console.log(record);
-   
+    console.log(record.food.nid);   
     var contentData = path + "?cache=" + Math.floor(Math.random()*11);
   
     $.ajax({
@@ -313,7 +314,6 @@ foods.updateLoadSuccess = function(data, message) {
 };
 
 foods.userMessage = function(data, message) {
-console.log(data);
   $('div#message').html(message);
   $('div#message').css('background-color', '#' + data.food_color_background);
   $('div#message').css('color', '#' + data.food_color_text);
