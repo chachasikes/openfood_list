@@ -1,5 +1,5 @@
 <?php
-include('../../../openfoodmongo_authenticate.php');
+include('../../openfoodmongo_authenticate.php');
 $categories = $m->openfood->categories;
 $foods = $m->openfood->foods;
 

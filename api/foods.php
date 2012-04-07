@@ -1,5 +1,5 @@
 <?php
-include('../../../openfoodmongo_authenticate.php');
+include('../../openfoodmongo_authenticate.php');
 
 if(!empty($_GET['page'])){
  $page = $_GET['page'];
@@ -17,7 +17,7 @@ $collection = $m->openfood->foods;
 $cursor = $collection->find()->skip($page_items * $page)->limit($page_items)->sort(array("name" => 1));
 
 /*
-header('Access-Control-Allow-Origin: *.chachaville.com');
+header('Access-Control-Allow-Origin: *.foodcards.org | *.chachaville.com');
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT"); 
 header("Cache-Control: no-cache, must-revalidate"); 

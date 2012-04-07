@@ -2,7 +2,7 @@
 
 // connect
 
-include('../../../openfoodmongo_authenticate.php');
+include('../../openfoodmongo_authenticate.php');
 
 $collection = $m_write->openfood->foods;
 $food = $_POST["food"];

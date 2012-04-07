@@ -1,6 +1,6 @@
 <?php
 
-include('../../../openfoodmongo_authenticate.php');
+include('../../openfoodmongo_authenticate.php');
 
 $collection = $m->openfood->foods;
 
