@@ -251,7 +251,6 @@ foods.categoriesLoadSuccess = function(data) {
   .appendTo(itemsContainer);
 
   $("div#filters").change(function(){
-
     var searchValues = '';
     var numberSelected = $("select#categories option:selected").length;
     var i = 0;
