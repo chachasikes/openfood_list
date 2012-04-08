@@ -56,6 +56,7 @@ foreach ($cursor as $obj) {
     $obj = array(
       "food_color_text" => $obj["food_color_text"],
       "food_color_background" => $obj["food_color_background"],
+      "openfood_update" => $obj["openfood_update"],
       "nid" => $obj["nid"]
     );
   }

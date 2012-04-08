@@ -126,7 +126,9 @@ footer {
   position: fixed;
   bottom: 0;
 }
-
+input.depiction {
+  width: 300px;
+}
 
 .color .modal-label,
 .color span {

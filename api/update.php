@@ -10,11 +10,11 @@ if(!empty($_POST["food"])){
   $food = $_POST["food"];
   // Hard coding mappings until figure out mongo syntax.
   $food_obj = array('$set' => array(
-/*
     'food_color_background' => $food["food_color_background"],
     'food_color_text' => $food["food_color_text"],
-*/
     'is_duplicate' => $food["is_duplicate"],
+    'depiction' => $food["depiction"],
+/*     'depiction_credit_url' => $food["depiction_credit_url"], */
     'openfood_update' => new MongoDate(strtotime(date('Y-M-d h:i:s')))
   ));
 

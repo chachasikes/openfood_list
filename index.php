@@ -93,15 +93,14 @@
 
       <!-- about modal content -->
     <div id="food" class="modal span11 hide">
-      <div class="modal-header">
+      <div class="modal-header" style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}}; color: {{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
         <a class="close" data-dismiss="modal" >&times;</a>
         <h2>${name}</h2>
       </div>
       <div class="modal-body">
-        <div class="row-fluid">
-            <div class="names span7">
+          <div class="names span6">
             <h4>Names</h4>
-            <dd>
+             <dd>
               {{if name}}<dt>Long Common Name</dt><dd>${name}</dd>{{/if}}
               {{if simple_name}}<dt>Simple Common Name</dt><dd>${simple_name}</dd>{{/if}}
               {{if scientific_name}}<dt>Scientific Name</dt><dd>${scientific_name}</dd>{{/if}}
@@ -121,58 +120,76 @@
               ${description}
             </div>
             {{/if}}
-          </div>
-           <div class="colors span4 rowfluid">
-            <h4>Choose a color that closely matches the food</h4>
-            <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
-              <div class="modal-label">Background Color</div>
-              <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
-              <input class="picker" value="{{if food_color_background}}#${food_color_background}{{/if}}" />
-            </p></div>
-            <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
-              <div class="modal-label">Text Color</div>
-              <p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p>
-              <input type="radio" name="food_color_text" value="dark"><span>Dark</span><br />
-              <input type="radio" name="food_color_text" value="light"><span>Light</span><br />
-              </p>
-            </div>
-            {{if depiction}}
-
-              <div class="image">
-              <a href="${depiction}">
-                <canvas class="image-canvas" id="food-canvas">
-                  <img id="food-image" src="${depiction}" alt="${name}" />
-                </canvas>
-              </a>
-              </div>
-            {{/if}}
-          </div>
         </div>
+<!--         end names -->
+        <div class="aside span4">
+          <div class="colors clearfix">
+            <h4>Food Color</h4>
+             <p>Choose a color that closely matches the natural color of the food when fresh or lightly processed.</p>
+              <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
+                  <div class="modal-label">Background Color</div>
+                  <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
+                    <input class="picker" value="{{if food_color_background}}#${food_color_background}{{/if}}" />
+                  </p>
+              </div>
+              <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
+                <div class="modal-label">Text Color</div>
+                  <p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p>
+                    <input type="radio" name="food_color_text" value="dark"><span>Dark</span><br />
+                    <input type="radio" name="food_color_text" value="light"><span>Light</span><br />
+                  </p>
+              </div>
+            </div><!-- end colors -->
+         <hr class="muted">
+            {{if depiction}}
+              <div class="image clearfix">
+                <h4>Reference Image</h4>
+                <a href="${depiction}">
+                  <canvas class="image-canvas" id="food-canvas">
+                    <img id="food-image" src="${depiction}" alt="${name}" />
+                  </canvas>
+                </a>
+              </div>
+              <label>{{if depiction_credit_url}}<a href="${depiction_credit_url}">Image Credits</a>{{else}}Image Source Data Missing{{/if}}</label>
+              <hr class="muted"><!-- end reference image -->
+            {{/if}}
+
+            <div class="image-url clearfix">
+              <h4>Set Reference Image URL</h4>
+              <label>Image URL</label><input type=text class="depiction" value="${depiction}" />
+              <label>Image Credits URL</label><input type=text class="depiction_credit_url" value="${depiction_credit_url}" />
+              <input class="change-depiction button" type="button" value="Save"/> <input class="reset-depiction button" type="button" value="Reset"/>
+            </div>
+        </div>
+<!--         end aside -->
         <hr class="muted">
-        <div class="row-fluid">
-          <div class="data span7">
-            <h4>Data Source & Crosswalks</h4>
-            <p>Data is cross-referenced and aggregated from a number of different sources. This dataset may be modified from the original reference.</p>
-            <dd>
+        <div class="data clearfix">
+          <h4>Data Source & Crosswalks</h4>
+          <p>Data is cross-referenced and aggregated from a number of different sources. This dataset may be modified from the original reference.</p>
+          <dd>
               <dt>Data Source</dt><dd>{{if datasource}}${datasource}{{else}}Mixed{{/if}}</dd>
               {{if freebase_id}}<dt>Freebase ID</dt><dd>${freebase_id}</dd>{{/if}}
               {{if in_foodgenome}}<dt>In FoodGenome</dt><dd>Yes. Last checked on ${in_foodgenome}</dd>{{/if}}
               {{if foodista_path}}<dd>In <a href="${foodista_path}" target="_blank">Foodista</a></dd>{{/if}}
-            </dd>
-            <div class="date">
+          </dd>
+          <div class="date">
             {{if updated_date}}<p class="created">Created  ${updated_date}</p>{{/if}}
             {{if openfood_update}}<p class="updated">Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
             {{if nid}}<p>${nid}</p>{{/if}}
             {{if is_duplicate}}<p>${is_duplicate}</p>{{/if}}
-            </div>
           </div>
         </div>
+
+
+
+
+
       </div>
       <div class="modal-footer">
         <a href="#" class="btn" data-dismiss="modal" >Close</a>
       </div>
     </div>
-
+  </div>
 
   <div id="foods" class="inner-transition">
     <div class="food" _id="{{if _id.$id}}${_id.$id}{{/if}}">
