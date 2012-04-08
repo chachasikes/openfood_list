@@ -123,6 +123,7 @@
             {{/if}}
           </div>
            <div class="colors span4 rowfluid">
+            <h4>Choose a color that closely matches the food</h4>
             <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
               <div class="modal-label">Background Color</div>
               <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
@@ -156,7 +157,7 @@
               <dt>Data Source</dt><dd>{{if datasource}}${datasource}{{else}}Mixed{{/if}}</dd>
               {{if freebase_id}}<dt>Freebase ID</dt><dd>${freebase_id}</dd>{{/if}}
               {{if in_foodgenome}}<dt>In FoodGenome</dt><dd>Yes. Last checked on ${in_foodgenome}</dd>{{/if}}
-              {{if in_foodista}}<dt>In Foodista</dt><dd>Yes. Last checked on ${in_foodista}</dd>{{/if}}
+              {{if foodista_path}}<dd>In <a href="${foodista_path}" target="_blank">Foodista</a></dd>{{/if}}
             </dd>
             <div class="date">
             {{if updated_date}}<p class="created">Created  ${updated_date}</p>{{/if}}

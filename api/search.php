@@ -13,6 +13,11 @@ if(!empty($_GET['search'])){
   $cursor = $collection->find(array("name" => $search))->sort(array("name" => 1));
   $count = $cursor->count();
 }
+else if(!empty($_GET['nid'])){
+  $search = explode(",", $_GET['nid']);
+  $cursor = $collection->find(array("nid" => (int) $search[0]))->sort(array("nid" => 1));
+  $count = $cursor->count();
+}
 else if(!empty($_GET['category'])){
   if($_GET['category'] === 'all') {
     $cursor = $collection->find()->sort(array("name" => 1));
