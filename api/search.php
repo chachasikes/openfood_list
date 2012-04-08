@@ -14,9 +14,9 @@ if(!empty($_GET['search'])){
   $count = $cursor->count();
 }
 else if(!empty($_GET['nid'])){
-  $search = explode(",", $_GET['nid']);
-  $cursor = $collection->find(array("nid" => (int) $search[0]))->sort(array("nid" => 1));
-  $count = $cursor->count();
+    $search = explode(",", $_GET['nid']);
+    $cursor = $collection->find(array("nid" => (int) $search[0]))->sort(array("nid" => 1));
+    $count = $cursor->count();  
 }
 else if(!empty($_GET['category'])){
   if($_GET['category'] === 'all') {
@@ -51,6 +51,16 @@ foreach ($cursor as $obj) {
     if($i > 0) {
      $json .= ',';
     }
+
+  if (!empty($_GET['colors'])) {
+    $obj = array(
+      "food_color_text" => $obj["food_color_text"],
+      "food_color_background" => $obj["food_color_background"],
+      "nid" => $obj["nid"]
+    );
+  }
+
+
 
     $json .= json_encode($obj);
   
