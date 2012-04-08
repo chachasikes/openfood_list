@@ -217,6 +217,7 @@ foods.searchFoodQuery = function(){
 
   var searchValue = $("div#search input.search").val();
   $('div.search-string').html(searchValue);
+  $("div#filters select option").attr("selected", false);
   var path = "api/search.php?search=" + searchValue;
    console.log(path);
   var contentData = path + "&cache=" + Math.floor(Math.random()*11);

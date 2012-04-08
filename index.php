@@ -50,10 +50,10 @@
 ================================================== -->
 
   <div class="content">
-  
+           <a href="./index.php" class="icon-arrow-left button back">Back</a> 
     <div class="row-fluid">
     <div class="intro">
-      <a href="./index.php" class="btn back">Back</a>
+
       Think of this as an interactive dictionary of names of kinds of fresh & perishable foods.
     </div>
 
@@ -62,17 +62,7 @@
       <input class="search" type="text" />
       <input class="button" type="submit" value="submit" />
     </div>  
-
-    <div id="legend">
-        <a class="close" data-dismiss="legend" >&times;</a>
-        <h4>Data Cleanup in Progress</h4>
-      <dl>
-        <dt>Colors</dt><dd>Community-edited colors represent Food color.</dd>
-        <dt>Foods</dt><dd>Come from a number of different datasets.</dd>
-        <dt>Duplicates</dt><dd>There are some duplicates.</dd>
-      </dl>
-    </div>
-  
+  <h4 class="span1">or</h4>
     <div id="filters" class="span3">
       <label>Categories</label>
       <select id="categories" name="categories" multiple="multiple">
@@ -82,6 +72,16 @@
 
     <div id="feedback" class="span11">
       <div class="search-string"></div><div class="food-count"></div>
+    </div>
+
+    <div id="legend">
+        <a class="close" data-dismiss="legend" >&times;</a>
+        <h4>Data Cleanup in Progress</h4>
+      <dl>
+        <dt>Colors</dt><dd>Community-edited colors represent Food color.</dd>
+        <dt>Foods</dt><dd>Come from a number of different datasets.</dd>
+        <dt>Duplicates</dt><dd>There are some duplicates.</dd>
+      </dl>
     </div>
 
   </div>
