@@ -24,8 +24,25 @@
   margin: 0 20px 0 50px;
 }
 
+#legend {
+  position: fixed;
+  right: 100px;
+  top: 100px;
+  background: #efefef;
+  padding: 20px;
+}
+
+#feedback,
+.food-count {
+  margin: 0 20px 0 50px;
+}
+
 #filters {
-  margin-top: 100px;
+/*   margin-top: 100px; */
+}
+.intro {
+  margin: 100px 0 10px 50px;
+  
 }
 
 .modal {
@@ -106,6 +123,8 @@ footer {
   font-size: 80%;
   line-height: normal;
   color: #888;
+  position: fixed;
+  bottom: 0;
 }
 
 
@@ -191,3 +210,25 @@ footer {
           transition: none;
 }
 
+div.dup {
+  display: none;
+/*
+  display: inline;
+  color: #fff;
+  background-color: #bbb;
+  font-weight: bold;
+  font-size: 70%;
+  text-transform: uppercase;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  margin-right: 0;
+  top:0;
+
+  float: right;
+  text-align: center;
+*/
+}
+a.dup:hover {
+
+}

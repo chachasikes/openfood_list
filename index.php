@@ -33,15 +33,11 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="./index.html">Foods</a>
+          <a class="brand" href="./index.php">Foods</a>
           <div class="nav-collapse">
             <ul class="nav">
-
+              <li><a href="#about" data-toggle="modal">About</a></li>
+              <li><a href="#faq" data-toggle="modal">FAQ</a></li>
             </ul>
           </div>
         </div>
@@ -53,21 +49,42 @@
 <!-- Masthead
 ================================================== -->
 
-<div class="content">
+  <div class="content">
+  
+    <div class="row-fluid">
+    <div class="intro">
+      <a href="./index.php" class="btn back">Back</a>
+      Think of this as an interactive dictionary of names of kinds of fresh & perishable foods.
+    </div>
 
-  <div id="search">
-    <label>Keyword</label>
-    <input class="search" type="text" />
-    <input class="button" type="submit" value="submit" />
-    <div class="search-string"></div><div class="food-count"></div>
-  </div>  
+    <div id="search" class="span3 push2">
+      <label>Keyword</label>
+      <input class="search" type="text" />
+      <input class="button" type="submit" value="submit" />
+    </div>  
 
-  <div id="filters">
-    <label>Categories</label>
-    <select id="categories" name="categories" multiple="multiple">
-      <option>${category}</option>
-    </select>
-  </div>  
+    <div id="legend">
+        <a class="close" data-dismiss="legend" >&times;</a>
+        <h4>Data Cleanup in Progress</h4>
+      <dl>
+        <dt>Colors</dt><dd>Community-edited colors represent Food color.</dd>
+        <dt>Foods</dt><dd>Come from a number of different datasets.</dd>
+        <dt>Duplicates</dt><dd>There are some duplicates.</dd>
+      </dl>
+    </div>
+  
+    <div id="filters" class="span3">
+      <label>Categories</label>
+      <select id="categories" name="categories" multiple="multiple">
+        <option>${category}</option>
+      </select>
+    </div>
+
+    <div id="feedback" class="span11">
+      <div class="search-string"></div><div class="food-count"></div>
+    </div>
+
+  </div>
 
   <div id="message" class="hide">
   </div>
@@ -145,6 +162,7 @@
             {{if updated_date}}<p class="created">Created  ${updated_date}</p>{{/if}}
             {{if openfood_update}}<p class="updated">Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
             {{if nid}}<p>${nid}</p>{{/if}}
+            {{if is_duplicate}}<p>${is_duplicate}</p>{{/if}}
             </div>
           </div>
         </div>
@@ -154,18 +172,44 @@
       </div>
     </div>
 
+
   <div id="foods" class="inner-transition">
-    <div class="food">
-      <p><a id="${_id.$id}" href="#food" data-toggle="modal" style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a></p>
+    <div class="food" _id="{{if _id.$id}}${_id.$id}{{/if}}">
+      <p><a id="${_id.$id}" href="#food" data-toggle="modal" style="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">${name}</a>
+        <div class="dup"><input type="checkbox" value="{{if is_duplicate}}${is_duplicate}{{else}}{{/if}}"/></div>
+      </p>
     </div>
   </div>
-  <div class="buffer"></div>
 </div>
 
+  <div id="about" class="modal hide fade">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal" >&times;</a>
+      <h2>About</h2>
+    </div>
+    <div class="modal-body">
+      <div class="row-fluid">
+
+      </div>
+    </div>
+  </div>
+
+  <div id="faq" class="modal hide fade">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal" >&times;</a>
+      <h2>FAQ</h2>
+    </div>
+    <div class="modal-body">
+      <div class="row-fluid">
+        <h3>Colors</h3>
+      </div>
+    </div>
+  </div>
 
      <!-- Footer
       ================================================== -->
       <footer class="footer span11">
+        <a class="close" data-dismiss="legend" >&times;</a>
         <p>April 7, 2012. <strong>This is a prototype</strong> of a tool to view and manage community contributed information about fresh & perishable foods.</strong></p>
         <p>Created as part of <a href="http://open-food.org">Open Food</a> Data -- promoting increased transparency & availability for healthy food data. 
         And also, <a href="http://foodcards.org">FoodCards</a></p>

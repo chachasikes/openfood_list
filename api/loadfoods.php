@@ -8,7 +8,8 @@ $collection = $m->openfood->foods;
 // find everything in the collection
 $cursor = $collection->find();
 
-$file_path = '../data/openfood_small.json';
+/* $file_path = '../data/openfood_small.json'; */
+$file_path = '../data/openfood_4_7_12.json';
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
 

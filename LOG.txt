@@ -1,0 +1,22 @@
+-- april 7, 2012, chach
+huge updates, put on server w/ mongo, did a lot of interface, sent out to friends for feedback.
+
+next steps
+-- seems like sometimes filters lose their change function if scrolling or changing modal or something like that.
+-- safari - no message area
+-- firefox - slow & no load message  (load message doesn't finish animating)
+-- bigger server (500-2gb) -- push current data
+-- authentication, maybe have it figured out, but was having memory issues on mongohq. should revisit eventually.
+-- backupds mongodump -- do daily, will do googlerefine reconciliations
+-- tags - add more
+-- suggest new foods that are missing
+-- add alternate names
+-- store users ip address if logged out
+-- foodista attribution
+-- image doesn't load except on refresh
+-- crons -- category_index.php script
+-- limit access to api functions that are administrative
+-- open food crosswalk
+-- agricultural thesaurus
+-- deduplication
+-- no nid / flagged / dups / new contributions (reconciliations)

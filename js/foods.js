@@ -25,9 +25,11 @@ $(document).ready(function(){
 
 foods.customizeInitialLoad = function() {
   $("div#search input.search").val("Search for a food");
+      $('div.search-string').html("Showing all foods");
   $("div#search input.search").focus(function(){
     $("div#search input.search").val('');
   });
+  
 };
 
 foods.loadContent = function() {
@@ -57,6 +59,8 @@ foods.contentLoadSuccess = function(data) {
   foods.data = data;
   foods.content = data["foods"];
 
+  $('a.back').hide();
+
   if(window.location.hash !== "") {
     hash = window.location.hash.replace('#', '');
     foods.loadFood(hash);
@@ -72,6 +76,11 @@ foods.contentLoadSuccess = function(data) {
 
 
   foods.foodClick();
+
+
+  $('div#legend a.close').click(function(){$(this).parent().hide();});
+
+  $('footer a.close').click(function(){$(this).parent().hide();});
 
   // Isotope
 
@@ -97,6 +106,7 @@ foods.foodClick = function() {
 
   $("div#foods div.food a").click(function(){
       var food_id = $(this).attr("id");
+      $('a.back').show();
       foods.loadFood(food_id);
     }
   );
@@ -131,6 +141,8 @@ foods.loadFoods = function() {
   $('div#foods .food').css('visibility', 'visible');
 
   $('div.food-count').html("found " + foods.data.count + " foods");
+  
+/*   foods.handleDuplicates(); */
 
   if(foods.data.count !== undefined) {
     foods.maxPages = Math.floor(foods.data.count / foods.itemsPerPage);
@@ -166,7 +178,6 @@ foods.loadFood = function(key) {
 
       foods.editButtons(foodContent);
       foods.imageCrop();
-
       break;
     }
   }
@@ -194,12 +205,15 @@ foods.searchFood = function() {
     }
   });
  $("div#search input.button").click(foods.searchFoodQuery);
+
 }
 
 foods.searchFoodQuery = function(){
   // Reset pager
   foods.page = 0;
   foods.maxPages = 1;
+
+  $('a.back').show();
 
   var searchValue = $("div#search input.search").val();
   $('div.search-string').html(searchValue);
@@ -240,6 +254,8 @@ foods.categoriesLoadSuccess = function(data) {
   categories.unshift(all);
   itemsContainer = $('div#filters select#categories');
 
+  $('a.back').show();
+
   // Reset search text box
   $("div#search input.search").val("Search for a food");
 
@@ -249,6 +265,9 @@ foods.categoriesLoadSuccess = function(data) {
 
   $.tmpl("itemsTemplate", categories)
   .appendTo(itemsContainer);
+
+  $("div#filters select option:nth(0)").attr("selected", true);
+
 
   $("div#filters").change(function(){
     var searchValues = '';
@@ -381,7 +400,7 @@ foods.imageCrop = function() {
   image.img["img"] = document.getElementById(images[0]);
   image.canvas["food-canvas"] = document.getElementById(canvas[0]);
 
-  if(image.img["img"] !== undefined && image.canvas["food-canvas"] !== undefined) {
+  if(image.img["img"] !== undefined && image.canvas["food-canvas"] !== undefined && image.canvas["food-canvas"] !== null) {
 
     image.context["context"] = image.canvas["food-canvas"].getContext("2d");
 
@@ -410,4 +429,22 @@ foods.formatDate = function (datetime) {
   // will display time in 10:30:23 format
   var formattedTime = hours + ':' + minutes + ':' + seconds;
   return date;
+};
+
+foods.handleDuplicates = function() {
+  $('div#foods div.food div.dup input').click( function(){
+      var food_id = $(this).parent().parent().attr("_id");
+      var value = $(this).is(':checked');
+      var key = food_id ;
+      for (var i in foods.content) {
+        if(foods.content[i]["_id"] !== null && foods.content[i]['_id']['$id'] == key) {
+          foodContent = foods.content[i];
+          foodContent.is_duplicate = value;
+          var record = {};
+          record.food = foodContent;
+          foods.updateRecord(record);   
+        }
+      }
+  });
+  
 };
