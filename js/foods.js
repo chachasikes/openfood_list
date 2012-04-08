@@ -117,22 +117,6 @@ foods.setupLoadFoods = function() {
   $.template( "foodTemplate", foodMarkup );
 
   foods.setup = true;
-
-  if(foods.data.count !== undefined) {
-    foods.maxPages = Math.floor(foods.data.count / foods.itemsPerPage);
-  }
-
-	$(window).scroll(function(){
-  	var scrolledDistance =  $(document).height() - $(window).height() - 1;
-  	 if($(window).scrollTop() == scrolledDistance ){
-  	  if(foods.page < foods.maxPages) {
-        foods.page++;
-        foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading More Foods", 6000);
-        foods.loadContent();
-        }
-  	 }
-  }); 
-
 };
 
 foods.loadFoods = function() {
@@ -147,11 +131,26 @@ foods.loadFoods = function() {
   $('div#foods .food').css('visibility', 'visible');
 
   $('div.food-count').html("found " + foods.data.count + " foods");
+
+  if(foods.data.count !== undefined) {
+    foods.maxPages = Math.floor(foods.data.count / foods.itemsPerPage);
+  }  
+	$(window).scroll(function(){
+  	var scrolledDistance =  $(document).height() - $(window).height() - 1;
+  	 if($(window).scrollTop() == scrolledDistance ){
+  	  if(foods.page < foods.maxPages) {
+        foods.page++;
+        foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading More Foods", 6000);
+        foods.loadContent();
+        }
+  	 }
+  }); 
+  
   return false;
 };
 
 foods.loadMoreFoods = function(page) {
-  console.log("laoding more");
+/*   console.log("laoding more"); */
 }
 
 foods.loadFood = function(key) {
@@ -198,6 +197,9 @@ foods.searchFood = function() {
 }
 
 foods.searchFoodQuery = function(){
+  // Reset pager
+  foods.page = 0;
+  foods.maxPages = 1;
 
   var searchValue = $("div#search input.search").val();
   $('div.search-string').html(searchValue);
@@ -237,6 +239,9 @@ foods.categoriesLoadSuccess = function(data) {
   categories = data["categories"];
   categories.unshift(all);
   itemsContainer = $('div#filters select#categories');
+
+  // Reset search text box
+  $("div#search input.search").val("Search for a food");
 
   var itemsMarkup = itemsContainer.html();
   itemsContainer.empty();
@@ -286,6 +291,7 @@ foods.editButtons = function(food) {
 
   $("div.colors .background input.picker").spectrum({
     color: foodContent.food_color_background,
+    showInput: true,
     change: function(color) {
       var record = {};
       record.food = foodContent;
