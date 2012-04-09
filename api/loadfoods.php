@@ -9,7 +9,7 @@ $collection = $m->openfood->foods;
 $cursor = $collection->find();
 
 /* $file_path = '../data/openfood_small.json'; */
-$file_path = '../data/grin_cucumis.json';
+$file_path = '../data/edible_plant-tsv.json';
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
 
@@ -18,6 +18,7 @@ $json = json_decode($file_data);
 $objects = $json->foods;
 
 $count = 0;
+$insert = array();
 foreach ($objects as $obj_load) {
   $obj_load->category_array = explode(",", $obj_load->category);
 
@@ -25,6 +26,7 @@ foreach ($objects as $obj_load) {
     $i = trim($i);
   }
   $collection->update(array('nid' => $obj_load->nid), array('$set' => $obj_load), true);
+
   $count++;
 }
 

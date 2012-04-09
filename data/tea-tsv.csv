@@ -1,0 +1,77 @@
+name,food_color_background,in_openfood,nid,freebase_id,category,regions_where_grown
+Gyokuro,B4C51C,,18974,/m/01qx81,"Green tea, tea, beverage",Japan
+Jin Suo Chi tea,4C5445,,18976,/m/09g3fp,"Oolong, tea, beverage",Wuyi Mountains
+Assam tea,B4C51C,,18977,/m/03k459,"Black tea,Green tea,White tea, tea, beverage",Assam
+Ceylon tea,962F00,,18978,/m/06x92w,"White tea, tea, beverage",Nuwara Eliya
+Hyson,B4C51C,,18979,/m/02t57p,"Green tea, tea, beverage",China
+Darjeeling tea,962F00,,18981,/m/07ql8f,"Black tea, tea, beverage",Darjeeling
+Shincha tea,B4C51C,,18982,/m/08l423,"Green tea, tea, beverage",Japan
+matcha latte,962F00,,18983,/m/0b65xj_,"Drink, tea, beverage",
+Qi Lan tea,4C5445,,18984,/m/08xxpb,"Oolong, tea, beverage",Wuyi Mountains
+Sayama Tea,962F00,,18985,/m/04lg9fw,"tea, beverage",
+Gohyah tea,962F00,,18986,/m/09fn7j,"tea, beverage",Brazil
+Chrysanthemum tea,962F00,,18987,/m/06rwyj,"tea, beverage","Bozhou,Tongxiang,Chuzhou"
+Mao Jian tea,B4C51C,,18989,/m/0286pf0,"Green tea, tea, beverage",Henan
+Pouchong,B4C51C,,18991,/m/0177_d,"Green tea,Oolong, tea, beverage",Fujian
+Lapsang souchong,962F00,,18992,/m/01pf5y,"Black tea, tea, beverage",Wuyi Mountains
+Rou Gui,4C5445,,18994,/m/06wnmx,"Oolong, tea, beverage",Wuyi Mountains
+Lv Cha,962F00,,18995,/m/03d_ccd,"tea, beverage",
+Bai Ji Guan tea,4C5445,,18996,/m/08hq2k,"Oolong, tea, beverage",Wuyi Mountains
+Jin Fo tea,4C5445,,18997,/m/07ld_r,"Oolong, tea, beverage",Wuyi Mountains
+Golden needle tea,962F00,,18998,/m/027yv23,"tea, beverage",
+Guapian tea,962F00,,18999,/m/0286pc9,"tea, beverage",
+Bai Hao Yinzhen tea,962F00,,19000,/m/06w3rt,"White tea, tea, beverage",Fujian
+Bu Zhi Chun tea,4C5445,,19001,/m/09g417,"Oolong, tea, beverage",Wuyi Mountains
+Bi Luo Chun tea,B4C51C,,19002,/m/02qs1mm,"Green tea, tea, beverage",Jiangsu
+Fo Shou tea,4C5445,,19003,/m/09g3qt,"Oolong, tea, beverage",
+Shui Jin Gui tea,4C5445,,19004,/m/07lf24,"Oolong, tea, beverage",Wuyi Mountains
+Vietnamese lotus tea,B4C51C,,19005,/m/03w9h27,"Green tea, tea, beverage",Vietnam
+Dong Ding tea,4C5445,,19006,/m/06wtz1,"Oolong, tea, beverage","Taiwan,Wuyi Mountains"
+Huang Guanyin tea,4C5445,,19007,/m/09g3w8,"Oolong, tea, beverage",Wuyi Mountains
+Golden Monkey tea,962F00,,19008,/m/0410_q7,"tea, beverage",
+Kahwah,962F00,,19009,/m/0gxnqc,"tea, beverage",
+Flowering tea,962F00,,19010,/m/02qz0xd,"tea, beverage",
+Chai,962F00,,19011,/m/02nnw0,"tea, beverage",
+Ceylon tea,962F00,,19012,/m/06wrwc,"Black tea, tea, beverage",Sri Lanka
+Maccha,B4C51C,,19014,/m/06c60c,"Green tea, tea, beverage","Japan,China"
+Mecha tea,B4C51C,,19015,/m/08kgt6,"Green tea, tea, beverage",Japan
+Darjeeling white tea,962F00,,19016,/m/08k6tp,"White tea, tea, beverage",Darjeeling
+Bohea Tea,962F00,,19017,/m/08j6w4,"tea, beverage",
+Lu'an Guapian,962F00,,19018,/m/051_w48,"tea, beverage",
+Nilgiri tea,962F00,,19019,/m/045d4r,"Black tea, tea, beverage",The Nilgiris District
+Dong Fang Mei Ren tea,4C5445,,19020,/m/0271g01,"Oolong, tea, beverage",
+Longjing,B4C51C,,19021,/m/053wng,"Green tea, tea, beverage",Zhejiang
+Rize Tea,962F00,,19022,/m/04kd4c,"Black tea, tea, beverage",Rize Province
+Kabusecha tea,B4C51C,,19023,/m/08hv3x,"Green tea, tea, beverage",Japan
+Green tea,962F00,,19024,/m/01mzvs,"Gun powder tea, tea, beverage",
+Nepal tea,962F00,,19025,/m/06wrmx,"Black tea, tea, beverage",Nepal
+Da Fang tea,B4C51C,,19026,/m/06xc47,"Green tea, tea, beverage",Anhui
+Huoshan Huangya tea,962F00,,19027,/m/06x9lr,"Yellow tea, tea, beverage",Anhui
+Dian Hong tea,962F00,,19028,/m/06twz9,"Black tea, tea, beverage",Yunnan
+Junshan Yinzhen tea,962F00,,19029,/m/06w4qt,"Yellow tea, tea, beverage",China
+Shui Hsien tea,4C5445,,19030,/m/07b4cw,"Oolong, tea, beverage",Wuyi Mountains
+Tieguanyin,4C5445,,19031,/m/03tmx5,"Oolong, tea, beverage",Anxi County
+White tea,962F00,,19033,/m/026vr7,"tea, beverage",
+Kombucha,962F00,,19034,/m/01n4fp,"tea, beverage",
+Piluochun tea,962F00,,19035,/m/0286q7h,"tea, beverage",
+Darjeeling tea,4C5445,,19036,/m/06ws1c,"Oolong, tea, beverage",Darjeeling
+Bancha tea,B4C51C,,19038,/m/08j_0l,"Green tea, tea, beverage",Japan
+Shou Mei tea,962F00,,19039,/m/06w2cm,"White tea, tea, beverage",China
+White monkey paw,962F00,,19040,/m/09ml4g,"tea, beverage",
+Da Hong Pao tea,4C5445,,19041,/m/07b4p5,"Oolong, tea, beverage",Wuyi Mountains
+Huang Mei Gui tea,4C5445,,19042,/m/07gxmy,"Oolong, tea, beverage",Wuyi Mountains
+Earl Grey tea,962F00,,19043,/m/01xrmc,"Black tea, tea, beverage",
+Bai Mu Dan tea,962F00,,19044,/m/06w3jq,"White tea, tea, beverage",Fujian
+Ceylon tea,B4C51C,,19045,/m/06x8h3,"Green tea, tea, beverage",Uva Province
+Lei cha,962F00,,19046,/m/0fqd9j,"tea, beverage",
+Ban Tian Yao tea,4C5445,,19047,/m/09g3jw,"Oolong, tea, beverage",Wuyi Mountains
+Gunpowder tea,B4C51C,,19048,/m/05q6nq,"Green tea, tea, beverage",Zhejiang
+Keemun tea,962F00,,19049,/m/02t568,"Black tea, tea, beverage",Qimen County
+Hou Kui tea,B4C51C,,19050,/m/06xb_k,"Green tea, tea, beverage",Anhui
+Kamairicha tea,B4C51C,,19051,/m/08kgx1,"Green tea, tea, beverage",Japan
+Chun Mee tea,B4C51C,,19052,/m/06w4fb,"Green tea, tea, beverage",Zhejiang
+Pu-erh tea,962F00,,19053,/m/026071,"Pu-erh tea, tea, beverage",Yunnan
+Mao Feng tea,B4C51C,,19054,/m/0286p7w,"Green tea, tea, beverage",Anhui
+Wu Long Cha,962F00,,19055,/m/03d_cc7,"tea, beverage",
+Tieluohan tea,4C5445,,19056,/m/08hp_t,"Oolong, tea, beverage",Wuyi Mountains
+Oolong,962F00,,19057,/m/05pdq,"tea, beverage",
