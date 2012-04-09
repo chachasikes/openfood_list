@@ -1,0 +1,6 @@
+"ACCID,N,6,0","DNO,N,6,0",description,food_color_background,variety,sample_statistic,"SPNNO,N,6,0",depiction,scientific_name,scientific_family,common_name,name,date_collected,alititude,longitude,latitude,pedigree,"SIDTYP,C,1","SIDID,C,40"
+196076,123057,"Plants vigorous; vine long, late maturing; fruit oval, 9 by",F7E16A,Orange Rind,Advanced cultivar,12571,,Cucumis melo var. inodorus,Cucurbitaceae,Winter Melon,"Winter Melon, var. Orange Rind",03/18/59,,,,,U,Orange Rind
+196076,123057,"Plants vigorous; vine long, late maturing; fruit oval, 9 by",F7E16A,G6671,Advanced cultivar,12571,,Cucumis melo var. inodorus,Cucurbitaceae,Winter Melon,"Winter Melon, var. G6671",03/18/59,,,,,O,G6671
+201081,123057,"Plant andromonoecious; fruit large, flat, not netted; skin",F7E16A,242,Other,12571,,Cucumis melo var. inodorus,Cucurbitaceae,Winter Melon,"Winter Melon, var. 242",06/23/60,-999,,,,D,242
+317388,123057,"Small, scrofulous, eliptic melon with pointed ends.",F7E16A,Pigmy cassaba,Other,12571,,Cucumis melo var. inodorus,Cucurbitaceae,Winter Melon,"Winter Melon, var. Pigmy cassaba",12/01/53,-999,,,,L,Pigmy cassaba
+317388,123057,"Small, scrofulous, eliptic melon with pointed ends.",F7E16A,12850,Other,12571,,Cucumis melo var. inodorus,Cucurbitaceae,Winter Melon,"Winter Melon, var. 12850",12/01/53,-999,,,,O,12850

@@ -100,13 +100,13 @@
       <div class="modal-body">
           <div class="names span6">
             <h4>Names</h4>
-             <dd>
-              {{if name}}<dt>Long Common Name</dt><dd>${name}</dd>{{/if}}
-              {{if simple_name}}<dt>Simple Common Name</dt><dd>${simple_name}</dd>{{/if}}
-              {{if scientific_name}}<dt>Scientific Name</dt><dd>${scientific_name}</dd>{{/if}}
-              {{if variety}}<dt>Variety</dt><dd>${variety}</dd>{{/if}}
-              {{if alternate_names}}<dt>Alternate Names</dt><dd>${alternate_names}</dd>{{/if}}
-            </dd>
+              <dd>
+                {{if name}}<dt>Long Common Name</dt><dd>${name}</dd>{{/if}}
+                {{if simple_name}}<dt>Simple Common Name</dt><dd>${simple_name}</dd>{{/if}}
+                {{if scientific_name}}<dt>Scientific Name</dt><dd>${scientific_name}</dd>{{/if}}
+                {{if variety}}<dt>Variety</dt><dd>${variety}</dd>{{/if}}
+                {{if alternate_names}}<dt>Alternate Names</dt><dd>${alternate_names}</dd>{{/if}}
+              </dd>
             {{if category}}
             <h4>Categories</h4>
             <div class="categories">
@@ -150,14 +150,14 @@
                   </canvas>
                 </a>
               </div>
-              <label>{{if depiction_credit_url}}<a href="${depiction_credit_url}">Image Credits</a>{{else}}Image Source Data Missing{{/if}}</label>
+              <label>{{if depiction_credit_url}}<a href="${depiction_credit_url}">Image Credits</a>{{else}}Image Attribution Data Missing{{/if}}</label>
               <hr class="muted"><!-- end reference image -->
             {{/if}}
 
             <div class="image-url clearfix">
               <h4>Set Reference Image URL</h4>
               <label>Image URL</label><input type=text class="depiction" value="${depiction}" />
-              <label>Image Credits URL</label><input type=text class="depiction_credit_url" value="${depiction_credit_url}" />
+              <label>Image Attribution URL</label><input type=text class="depiction_credit_url" value="${depiction_credit_url}" />
               <input class="change-depiction button" type="button" value="Save"/> <input class="reset-depiction button" type="button" value="Reset"/>
             </div>
         </div>

@@ -323,30 +323,6 @@ foods.editButtons = function(food) {
       foods.updateRecord(record);
     }
   });
-//http://njaes.rutgers.edu/images/photos/tomato-varieties/Bush_Big_Boy.jpg
-  if($('input.depiction').val() == "") {
-/*     $('input.depiction').val("Add an image"); */
-
-/*
-    $('input.depiction').focus(function(){
-      $('input.depiction').val('');
-    });
-*/
-  }
-
-  if($('input.depiction_credit_url').val() == "") {
-/*     $('input.depiction_credit_url').val("Link to Image Credits"); */
-
-/*
-    $('input.depiction_credit_url').focus(function(){
-      $('input.depiction_credit_url').val('');
-    });
-*/
-  }
-
-
-
-
 
   $("input.reset-depiction").click(function(){
     $('input.depiction').val(foodContent.depiction);  
@@ -361,8 +337,8 @@ foods.editButtons = function(food) {
       record.food.depiction_credit_url = $('input.depiction_credit_url').val();
       console.log(record.food.depiction);
       console.log(record.food.depiction_credit_url);
-/*       foods.updateRecord(record); */
-    foods.userMessage(record.food, "Saved Image Information", 2000);
+      foods.updateRecord(record);
+      foods.userMessage(record.food, "Saved Image Information", 3000);
       return false; 
   });
 
@@ -488,5 +464,4 @@ foods.handleDuplicates = function() {
         }
       }
   });
-  
 };
