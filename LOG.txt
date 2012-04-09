@@ -1,4 +1,4 @@
--- april 7, 2012, chach
+*** april 7, 2012, chach
 huge updates, put on server w/ mongo, did a lot of interface, sent out to friends for feedback.
 
 next steps
@@ -20,3 +20,17 @@ next steps
 -- agricultural thesaurus
 -- deduplication
 -- no nid / flagged / dups / new contributions (reconciliations)
+
+
+
+
+*** april 8, 2012, chach
+-- showed my friend the interface and she was confused, so i added some labels and some better image attribution
+-- worked on adding the entire melon family to see what happens to the interface - cucurbitacae doubles the size of the database, now at 18000+ records.
+-- added ability to paste a reference image & credits
+-- better color labeling
+
+
+next steps
+-- search autoload is whacked out
+-- there is a bug that breaks the modal

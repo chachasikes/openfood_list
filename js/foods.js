@@ -210,8 +210,10 @@ foods.searchFood = function() {
 
 foods.searchFoodQuery = function(){
   // Reset pager
+  // Reset pager
   foods.page = 0;
   foods.maxPages = 1;
+  var page = foods.page;
 
   $('a.back').show();
 
