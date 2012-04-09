@@ -220,9 +220,21 @@ foods.searchFoodQuery = function(){
   $("div#filters select option").attr("selected", false);
   var path = "api/search.php?search=" + searchValue;
    console.log(path);
-  var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+  var contentData = path + "&page=" + page + "&cache=" + Math.floor(Math.random()*11);
 
   var data = "";
+
+	$(window).scroll(function(){
+  	var scrolledDistance =  $(document).height() - $(window).height() - 1;
+  	 if($(window).scrollTop() == scrolledDistance ){
+  	  if(foods.page < foods.maxPages) {
+        foods.page++;
+        foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading More Foods", 6000);
+        foods.searchFoodQuery();
+        }
+  	 }
+  }); 
+
 
   $.ajax({
     url:  contentData,
@@ -250,6 +262,10 @@ foods.loadCategories = function() {
 };
 
 foods.categoriesLoadSuccess = function(data) {
+  // Reset pager
+  foods.page = 0;
+  foods.maxPages = 1;
+  var page = foods.page;
   var all = {'category':'all'};
   categories = data["categories"];
   categories.unshift(all);
@@ -270,6 +286,7 @@ foods.categoriesLoadSuccess = function(data) {
   $("div#filters select option:nth(0)").attr("selected", true);
 
 
+
   $("div#filters").change(function(){
     var searchValues = '';
     var numberSelected = $("select#categories option:selected").length;
@@ -288,7 +305,7 @@ foods.categoriesLoadSuccess = function(data) {
 
     var path = "api/search.php?category=" + searchValues;
 
-    var contentData = path + "&cache=" + Math.floor(Math.random()*11);
+    var contentData = path + "&page=" + page + "&cache=" + Math.floor(Math.random()*11);
 
     var data = "";
 

@@ -9,7 +9,7 @@ $collection = $m->openfood->foods;
 $cursor = $collection->find();
 
 /* $file_path = '../data/openfood_small.json'; */
-$file_path = '../data/openfood_4_7_12.json';
+$file_path = '../data/grin_cucumis.json';
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
 

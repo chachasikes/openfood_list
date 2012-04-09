@@ -3,6 +3,14 @@
 include('../../openfoodmongo_authenticate.php');
 connectMongo(false);
 
+if(!empty($_GET['page'])){
+ $page = $_GET['page'];
+}
+else{
+  $page = 0;
+}
+$page_items = 500;
+
 $collection = $m->openfood->foods;
 
 // find everything in the collection
@@ -10,17 +18,17 @@ if(!empty($_GET['search'])){
   $search_split = explode(",", $_GET['search']);
   $multiple_searches = implode("|", $search_split);
   $search = new MongoRegex('/'. $multiple_searches . '/i');
-  $cursor = $collection->find(array("name" => $search))->sort(array("name" => 1));
+  $cursor = $collection->find(array("name" => $search))->skip($page * $page_items)->limit($page_items)->sort(array("name" => 1));
   $count = $cursor->count();
 }
 else if(!empty($_GET['nid'])){
     $search = explode(",", $_GET['nid']);
-    $cursor = $collection->find(array("nid" => (int) $search[0]))->sort(array("nid" => 1));
+    $cursor = $collection->find(array("nid" => (int) $search[0]))->skip($page * $page_items)->limit($page_items)->sort(array("nid" => 1));
     $count = $cursor->count();  
 }
 else if(!empty($_GET['category'])){
   if($_GET['category'] === 'all') {
-    $cursor = $collection->find()->sort(array("name" => 1));
+    $cursor = $collection->find()->limit($page_items)->skip($page * $page_items)->sort(array("name" => 1));
     $count = $collection->find()->count();
   }
   else {
@@ -29,7 +37,7 @@ else if(!empty($_GET['category'])){
   
     $search = new MongoRegex('/'. $multiple_searches . '/i');
   
-    $cursor = $collection->find(array("category" => $search))->sort(array("name" => 1));
+    $cursor = $collection->find(array("category" => $search))->skip($page * $page_items)->limit($page_items)->sort(array("name" => 1));
     $count = $collection->find(array("category" => $search))->count();
   }
 
