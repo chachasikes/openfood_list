@@ -164,6 +164,8 @@
             {{if updated_date}}<p class="created">Created  ${updated_date}</p>{{/if}}
             {{if openfood_update}}<p class="updated">Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
             {{if nid}}<p>System ID ${nid}</p>{{/if}}
+            
+            <sub>These buttons will not work yet, but you get the idea.</sub>
             <p><input type="checkbox" value="${is_duplicate}" />This is a duplicate.</p>
             <p><input type="checkbox" value="${is_not_food}" />This is not food.</p>
           </div>
