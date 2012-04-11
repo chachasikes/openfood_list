@@ -155,7 +155,7 @@
           <p>Data is cross-referenced and aggregated from a number of different sources. This dataset may be modified from the original reference.</p>
           <dd>
               <dt>Data Source</dt><dd>{{if datasource}}${datasource}{{else}}Mixed{{/if}}</dd>
-              {{if scientific_name}}<dt>Wikispecies</dt><dd><a href="http://species.wikimedia.org/wiki/${scientific_name}"><em>${scientific_name}</em> in WikiSpecies</a></dd>{{/if}}
+              {{if scientific_name}}<dt>Wikispecies</dt><dd><a href="http://species.wikimedia.org/wiki/${scientific_name}" target="_blank"><em>${scientific_name}</em> in WikiSpecies</a></dd>{{/if}}
               {{if freebase_id}}<dt>Freebase ID</dt><dd>${freebase_id}</dd>{{/if}}
               {{if in_foodgenome}}<dt>In FoodGenome</dt><dd>Yes. Last checked on ${in_foodgenome}</dd>{{/if}}
               {{if foodista_path}}<dd>In <a href="${foodista_path}" target="_blank">Foodista</a></dd>{{/if}}
