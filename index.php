@@ -74,23 +74,8 @@
       <div class="search-string"></div><div class="food-count"></div>
     </div>
 
-    <div id="legend">
-        <a class="close" data-dismiss="legend" >&times;</a>
-        <h4>Code Development & Data Cleanup in Progress</h4>
-      <dl>
-        <dt>Bugginess</dt><dd>Search & categories are a little broken at the moment.</dd>
-        <dt>Colors</dt><dd>Community-edited colors represent Food color.</dd>
-        <dt>Foods</dt><dd>Come from a number of different datasets.</dd>
-        <dt>Duplicates</dt><dd>There are some duplicates.</dd>
-      </dl>
-    </div>
-
-  </div>
-
   <div id="message" class="hide">
   </div>
-
-
 
       <!-- about modal content -->
     <div id="food" class="modal span11 hide">
@@ -201,17 +186,29 @@
   </div>
 </div>
 
-  <div id="about" class="modal hide fade">
+
+    <div id="about" data-toggle="modal" class="modal show">
     <div class="modal-header">
-      <a class="close" data-dismiss="modal" >&times;</a>
-      <h2>About</h2>
+        <a class="close" data-dismiss="modal">×</a>
+        <h3>Open Foods List</h3>
     </div>
     <div class="modal-body">
-      <div class="row-fluid">
-
-      </div>
+        <p><strong>This is a prototype</strong> of a tool to view and manage community contributed information about fresh & perishable foods.</strong></p>
+        <p>Created as part of <a href="http://open-food.org">Open Food</a> Data -- promoting increased transparency & availability for healthy food data. 
+        And also, <a href="http://foodcards.org">FoodCards</a></p>
+        <p><em>Best viewed in Chrome.</em></p>
+        
+        <h4>News</h4>
+        <p>April 11, 2012 - Code Development & Data Cleanup in Progress</p>
+        <dl>
+          <dt>Colors</dt><dd>Community-edited colors represent Food color.</dd>
+          <dt>Foods</dt><dd>Come from a number of different datasets.</dd>
+          <dt>Duplicates</dt><dd>There are some duplicates.</dd>
+        </dl>
     </div>
-  </div>
+    </div>
+
+
 
   <div id="faq" class="modal hide fade">
     <div class="modal-header">
@@ -220,20 +217,16 @@
     </div>
     <div class="modal-body">
       <div class="row-fluid">
-        <h3>Colors</h3>
+        Have a question? Tweet us at @open_food or @chachasikes.
       </div>
     </div>
   </div>
 
      <!-- Footer
       ================================================== -->
-      <footer class="footer span11">
-        <a class="close" data-dismiss="legend" >&times;</a>
-        <p>April 7, 2012. <strong>This is a prototype</strong> of a tool to view and manage community contributed information about fresh & perishable foods.</strong></p>
-        <p>Created as part of <a href="http://open-food.org">Open Food</a> Data -- promoting increased transparency & availability for healthy food data. 
-        And also, <a href="http://foodcards.org">FoodCards</a></p>
-        <p>Best viewed in Chrome.</p>
-     </footer>
+<!--       <footer class="footer span11"> -->
+<!--         <a class="close" data-dismiss="legend" >&times;</a> -->
+<!--      </footer> -->
 
     </div><!-- /container -->
 

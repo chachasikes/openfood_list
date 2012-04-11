@@ -15,9 +15,10 @@ var query = {path: "api/foods.php"};
 
 $(document).ready(function(){
   foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading Foods", 3000);
-  foods.loadContent(query);
-  foods.searchFood();
+
   foods.loadCategories();
+  foods.searchFood();
+  foods.loadContent(query);
 
   foods.customizeInitialLoad();
 });
@@ -31,10 +32,14 @@ foods.customizeInitialLoad = function() {
     $("div#search input.search").val('');
   });
 
-  $('div#legend').hide();
-  $('footer').hide();
+/*   $('div#legend').hide(); */
+/*   $('footer').hide(); */
+
+$('#about').modal({show: true});
 
 /*   $('div#legend a.close').click(function(){$(this).parent().hide();}); */
+
+
 /*   $('footer a.close').click(function(){$(this).parent().hide();}); */
 };
 
@@ -220,7 +225,7 @@ foods.searchFood = function() {
      // Reset pager
       foods.page = 0;
       foods.maxPages = 1;
-      $('a.back').show();
+      $('div.food-count').html("Searching...");
      
       var searchValue = $("div#search input.search").val();
       $('div.search-string').html(searchValue);
@@ -235,8 +240,9 @@ foods.searchFood = function() {
    // Reset pager
     foods.page = 0;
     foods.maxPages = 1;
-    $('a.back').show();
-   
+
+    $('div.food-count').html("Searching...");   
+
     var searchValue = $("div#search input.search").val();
     $('div.search-string').html(searchValue);
     $("div#filters select option").attr("selected", false);
@@ -262,17 +268,10 @@ foods.loadCategories = function() {
 };
 
 foods.categoriesLoadSuccess = function(data) {
-  // Reset pager
-  foods.page = 0;
-  foods.maxPages = 1;
-  var page = foods.page;
   var all = {'category':'all'};
   categories = data["categories"];
   categories.unshift(all);
   itemsContainer = $('div#filters select#categories');
-
-  // Reset search text box
-  $("div#search input.search").val("Search for a food");
 
   var itemsMarkup = itemsContainer.html();
   itemsContainer.empty();
@@ -284,6 +283,14 @@ foods.categoriesLoadSuccess = function(data) {
   $("div#filters select option:nth(0)").attr("selected", true);
 
   $("div#filters").change(function(){
+    // Reset pager
+    foods.page = 0;
+    foods.maxPages = 1;
+    var page = foods.page;
+
+    // Reset search text box
+    $("div#search input.search").val("Search for a food");
+
     var searchValues = '';
     var numberSelected = $("select#categories option:selected").length;
     var i = 0;
