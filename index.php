@@ -148,8 +148,9 @@
             </div>
         </div>
 <!--         end aside -->
-        <hr class="muted">
-        <div class="data clearfix">
+        <hr class="muted" />
+
+        <div class="data span 10 clearfix">
           <h4>Data Source & Crosswalks</h4>
           <p>Data is cross-referenced and aggregated from a number of different sources. This dataset may be modified from the original reference.</p>
           <dd>
