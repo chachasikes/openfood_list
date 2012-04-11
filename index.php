@@ -76,8 +76,9 @@
 
     <div id="legend">
         <a class="close" data-dismiss="legend" >&times;</a>
-        <h4>Data Cleanup in Progress</h4>
+        <h4>Code Development & Data Cleanup in Progress</h4>
       <dl>
+        <dt>Bugginess</dt><dd>Search & categories are a little broken at the moment.</dd>
         <dt>Colors</dt><dd>Community-edited colors represent Food color.</dd>
         <dt>Foods</dt><dd>Come from a number of different datasets.</dd>
         <dt>Duplicates</dt><dd>There are some duplicates.</dd>

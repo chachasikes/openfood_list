@@ -8,8 +8,17 @@ $collection = $m->openfood->foods;
 // find everything in the collection
 $cursor = $collection->find();
 
-/* $file_path = '../data/openfood_small.json'; */
-$file_path = '../data/edible_plant-tsv.json';
+// @TODO load all files via an array.
+
+/* $file_path = '../data/complete/openfood_4_7_12.json'; */
+/* $file_path = '../data/complete/beer_style_category-tsv.json'; */
+/* $file_path = '../data/complete/California-Rare-Fruit-List-Sheet1-csv.json'; */
+/* $file_path = '../data/complete/cheese-tsv.json'; */
+/* $file_path = '../data/complete/cucumber_varieties_seed_catalogs.json'; */
+/* $file_path = '../data/complete/edible_plant-tsv.json'; */
+/* $file_path = '../data/complete/tea-tsv.json'; */
+$file_path = '../data/complete/grin_cucumis.json';
+
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
 
