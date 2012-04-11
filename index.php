@@ -155,6 +155,7 @@
           <p>Data is cross-referenced and aggregated from a number of different sources. This dataset may be modified from the original reference.</p>
           <dd>
               <dt>Data Source</dt><dd>{{if datasource}}${datasource}{{else}}Mixed{{/if}}</dd>
+              {{if scientific_name}}<dt>Wikispecies</dt><dd><a href="http://species.wikimedia.org/wiki/${scientific_name}"><em>${scientific_name}</em> in WikiSpecies</a></dd>{{/if}}
               {{if freebase_id}}<dt>Freebase ID</dt><dd>${freebase_id}</dd>{{/if}}
               {{if in_foodgenome}}<dt>In FoodGenome</dt><dd>Yes. Last checked on ${in_foodgenome}</dd>{{/if}}
               {{if foodista_path}}<dd>In <a href="${foodista_path}" target="_blank">Foodista</a></dd>{{/if}}
@@ -162,8 +163,9 @@
           <div class="date">
             {{if updated_date}}<p class="created">Created  ${updated_date}</p>{{/if}}
             {{if openfood_update}}<p class="updated">Updated  ${foods.formatDate(openfood_update)}</p>{{/if}}
-            {{if nid}}<p>${nid}</p>{{/if}}
-            {{if is_duplicate}}<p>${is_duplicate}</p>{{/if}}
+            {{if nid}}<p>System ID ${nid}</p>{{/if}}
+            <p><input type="checkbox" value="${is_duplicate}" />This is a duplicate.</p>
+            <p><input type="checkbox" value="${is_not_food}" />This is not food.</p>
           </div>
         </div>
 
