@@ -11,31 +11,44 @@ foods.page = 0;
 foods.maxPages = 1;
 foods.itemsPerPage = 500;
 foods.setup = false;
+var query = {path: "api/foods.php"};
 
 $(document).ready(function(){
   foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading Foods", 3000);
-  foods.loadContent();
+  foods.loadContent(query);
   foods.searchFood();
   foods.loadCategories();
 
   foods.customizeInitialLoad();
-
 });
 
 
 foods.customizeInitialLoad = function() {
   $("div#search input.search").val("Search for a food");
-      $('div.search-string').html("Showing all foods");
+  $('div.search-string').html("Showing all foods");
+
   $("div#search input.search").focus(function(){
     $("div#search input.search").val('');
   });
-  
+
+  $('div#legend').hide();
+  $('footer').hide();
+
+/*   $('div#legend a.close').click(function(){$(this).parent().hide();}); */
+/*   $('footer a.close').click(function(){$(this).parent().hide();}); */
 };
 
-foods.loadContent = function() {
-  var path = "api/foods.php";
+foods.loadContent = function(query) {
+  var path = query.path;
+  var search;
+  if (query.search !== undefined) {
+    search = "&search=" + query.search;
+  } 
+  else {
+    search = "";
+  }
   var page = foods.page;
-  var contentData = path + "?page=" + page + "&cache=" + Math.floor(Math.random()*11);
+  var contentData = path + "?page=" + page + search + "&cache=" + Math.floor(Math.random()*11);
 
   var data = "";
 
@@ -59,7 +72,7 @@ foods.contentLoadSuccess = function(data) {
   foods.data = data;
   foods.content = data["foods"];
 
-  $('a.back').hide();
+/*   $('a.back').hide(); */
 
   if(window.location.hash !== "") {
     hash = window.location.hash.replace('#', '');
@@ -77,10 +90,6 @@ foods.contentLoadSuccess = function(data) {
 
   foods.foodClick();
 
-
-  $('div#legend a.close').click(function(){$(this).parent().hide();});
-
-  $('footer a.close').click(function(){$(this).parent().hide();});
 
   // Isotope
 
@@ -153,7 +162,7 @@ foods.loadFoods = function() {
   	  if(foods.page < foods.maxPages) {
         foods.page++;
         foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading More Foods", 6000);
-        foods.loadContent();
+        foods.loadContent(query);
         }
   	 }
   }); 
@@ -201,42 +210,41 @@ foods.searchFood = function() {
   $("div#search input.search").keypress(function(e) {
     // On hit enter
     if ( e.which == 13 ) {
-      foods.searchFoodQuery();
+     // Reset pager
+      foods.page = 0;
+      foods.maxPages = 1;
+      $('a.back').show();
+     
+      var searchValue = $("div#search input.search").val();
+      $('div.search-string').html(searchValue);
+      $("div#filters select option").attr("selected", false);
+    
+      query = {path:"api/search.php", "search": searchValue};
+      foods.loadContent(query);
     }
   });
- $("div#search input.button").click(foods.searchFoodQuery);
-
+ $("div#search input.button").click(function(){
+   // Reset pager
+    foods.page = 0;
+    foods.maxPages = 1;
+    $('a.back').show();
+   
+    var searchValue = $("div#search input.search").val();
+    $('div.search-string').html(searchValue);
+    $("div#filters select option").attr("selected", false);
+  
+    query = {path:"api/search.php", "search": searchValue}; 
+    foods.loadContent(query);
+  }
+ );
 }
+/*
 
 foods.searchFoodQuery = function(){
-  // Reset pager
-  // Reset pager
-  foods.page = 0;
-  foods.maxPages = 1;
   var page = foods.page;
 
-  $('a.back').show();
-
-  var searchValue = $("div#search input.search").val();
-  $('div.search-string').html(searchValue);
-  $("div#filters select option").attr("selected", false);
   var path = "api/search.php?search=" + searchValue;
-   console.log(path);
   var contentData = path + "&page=" + page + "&cache=" + Math.floor(Math.random()*11);
-
-  var data = "";
-
-	$(window).scroll(function(){
-  	var scrolledDistance =  $(document).height() - $(window).height() - 1;
-  	 if($(window).scrollTop() == scrolledDistance ){
-  	  if(foods.page < foods.maxPages) {
-        foods.page++;
-        foods.userMessage({'food_color_background': '555555', 'color':  'ffffff'}, "Loading More Foods", 6000);
-        foods.searchFoodQuery();
-        }
-  	 }
-  }); 
-
 
   $.ajax({
     url:  contentData,
@@ -248,6 +256,7 @@ foods.searchFoodQuery = function(){
 
   return false;
 }
+*/
 
 foods.loadCategories = function() {
     var path = "api/categories.php";
