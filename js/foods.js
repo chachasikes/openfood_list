@@ -47,8 +47,15 @@ foods.loadContent = function(query) {
   else {
     search = "";
   }
+  if (query.category !== undefined) {
+    category = "&category=" + query.category;
+  } 
+  else {
+    category = "";
+  }
+
   var page = foods.page;
-  var contentData = path + "?page=" + page + search + "&cache=" + Math.floor(Math.random()*11);
+  var contentData = path + "?page=" + page + search + category + "&cache=" + Math.floor(Math.random()*11);
 
   var data = "";
 
@@ -71,7 +78,7 @@ foods.loadDataError = function(data) {
 foods.contentLoadSuccess = function(data) {
   foods.data = data;
   foods.content = data["foods"];
-
+  $('div.food-count').html("found " + foods.data.count + " foods");
 /*   $('a.back').hide(); */
 
   if(window.location.hash !== "") {
@@ -223,6 +230,7 @@ foods.searchFood = function() {
       foods.loadContent(query);
     }
   });
+  
  $("div#search input.button").click(function(){
    // Reset pager
     foods.page = 0;
@@ -238,25 +246,6 @@ foods.searchFood = function() {
   }
  );
 }
-/*
-
-foods.searchFoodQuery = function(){
-  var page = foods.page;
-
-  var path = "api/search.php?search=" + searchValue;
-  var contentData = path + "&page=" + page + "&cache=" + Math.floor(Math.random()*11);
-
-  $.ajax({
-    url:  contentData,
-    dataType: 'json',
-    data: data,
-    success: foods.contentLoadSuccess,
-    error: foods.loadDataError
-  });
-
-  return false;
-}
-*/
 
 foods.loadCategories = function() {
     var path = "api/categories.php";
@@ -282,8 +271,6 @@ foods.categoriesLoadSuccess = function(data) {
   categories.unshift(all);
   itemsContainer = $('div#filters select#categories');
 
-  $('a.back').show();
-
   // Reset search text box
   $("div#search input.search").val("Search for a food");
 
@@ -295,8 +282,6 @@ foods.categoriesLoadSuccess = function(data) {
   .appendTo(itemsContainer);
 
   $("div#filters select option:nth(0)").attr("selected", true);
-
-
 
   $("div#filters").change(function(){
     var searchValues = '';
@@ -312,21 +297,10 @@ foods.categoriesLoadSuccess = function(data) {
     });
 
     $('div.search-string').html(searchValues);
-    $('div.food-count').html("found " + foods.data.count + " foods");
+    $('div.food-count').html("Searching...");
 
-    var path = "api/search.php?category=" + searchValues;
-
-    var contentData = path + "&page=" + page + "&cache=" + Math.floor(Math.random()*11);
-
-    var data = "";
-
-    $.ajax({
-      url:  contentData,
-      dataType: 'json',
-      data: data,
-      success: foods.contentLoadSuccess,
-      error: foods.loadDataError
-    });
+    query = {path: "api/search.php", category: searchValues};
+    foods.loadContent(query);
 
     return false;
   });
