@@ -1,12 +1,12 @@
 <?php
 include('../../openfoodmongo_authenticate.php');
 connectMongo(true);
-$foods_collection = $m->openfood->foods;
+$kitchen_collection = $m->openfood->kitchen;
 
 // find everything in the collection
-$cursor = $foods_collection->find();
-$category_index = $m->openfood->categories->drop();
-$category_index = $m->openfood->categories;
+$cursor = $kitchen_collection->find();
+$category_index = $m->openfood->kitchen_categories->drop();
+$category_index = $m->openfood->kitchen_categories;
 
 $json = '';
 foreach ($cursor as $obj) {
@@ -22,12 +22,8 @@ foreach ($cursor as $obj) {
 }
 
 
-$collection = $m->openfood->categories;
+$collection = $m->openfood->kitchen_categories;
 $cursor = $collection->find();
-// find everything in the collection
-/* $cursor = $collection->find(array('name' => "Dill"))->limit(10); */
-/* $cursor = $collection->findOne(array('nid' => '739')); */
-// $cursor = $collection->find()->limit(300);
 
 // Print data
 header('Access-Control-Allow-Origin: *.foodcards.org | *.chachaville.com');
