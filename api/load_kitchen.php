@@ -2,7 +2,7 @@
 include('../../openfoodmongo_authenticate.php');
 connectMongo(true);
 
-/* $collection = $m->openfood->kitchen->drop(); */
+$collection = $m->openfood->kitchen->drop();
 
 $collection = $m->openfood->kitchen;
 // find everything in the collection
@@ -21,6 +21,7 @@ $cursor = $collection->find();
 /* $file_path = '../data/kitchen/Kitchen-Cards-Chemical-Process.json'; */
 /* $file_path = '../data/kitchen/Kitchen-Cards-Physical-Process.json'; */
 /* $file_path = '../data/kitchen/Kitchen-Cards-Shapes.json'; */
+$file_path = '../data/kitchen/Kitchen-Cards-All-json-merged.json';
 
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
