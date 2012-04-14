@@ -17,7 +17,7 @@ $cursor = $collection->find();
 /* $file_path = '../data/complete/cucumber_varieties_seed_catalogs.json'; */
 /* $file_path = '../data/complete/edible_plant-tsv.json'; */
 /* $file_path = '../data/complete/tea-tsv.json'; */
-$file_path = '../data/complete/grin_cucumis.json';
+$file_path = '../data/update/Master-Cucumis (2).txt';
 
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */
@@ -34,7 +34,16 @@ foreach ($objects as $obj_load) {
   foreach($obj_load->category_array as $i) {
     $i = trim($i);
   }
+  // This will completely replace the record.
   $collection->update(array('nid' => $obj_load->nid), array('$set' => $obj_load), true);
+
+  // For each item in object load do different things like append or replace
+  // or just add new fields
+  // give an indiciation of how many records already existed and were overwritten.
+
+  // pop some items out of the array and set the rest?
+  // and append some strings
+  // and merge some.
 
   $count++;
 }

@@ -1,0 +1,30 @@
+{
+  "foods" : [    {
+      "nid" : 11543,
+      "ACCID,N,6,0" : null,
+      "datasource" : "National Plant Germplasm System GRIN datasets http://www.ars-grin.gov/~dbmuqs/cgi-bin/mcpd_gen.pl",
+      "description" : null,
+      "food_color_background" : "aedc7a",
+      "food_color_text" : "131313",
+      "variety" : "010689-0105",
+      "sample_statistic" : "Other",
+      "SPNNO,N,6,0" : 12569,
+      "depiction" : null,
+      "scientific_name" : "Cucumis melo var. flexuosus test",
+      "scientific_family" : "Cucurbitaceae",
+      "classification_family" : "melon",
+      "processing" : "whole",
+      "updated_date" : "Sunday, April 8, 2012 - 18:49",
+      "category" : "fruit, melon, whole food, scientific data, germplasm, GRIN, cucumber",
+      "common_name" : "Armenian Cucumber",
+      "name" : "Armenian Cucumber, var. 010689-0105",
+      "date_collected" : "06/01/89",
+      "altitude" : -999,
+      "longitude" : null,
+      "latitude" : null,
+      "pedigree" : null,
+      "SIDTYP,C,1" : "C",
+      "SIDID,C,40" : "010689-0105"
+    }
+  ]
+}
