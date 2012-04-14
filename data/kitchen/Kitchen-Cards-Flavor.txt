@@ -1,0 +1,860 @@
+{
+  "kitchen" : [
+    {
+      "name" : "Abrasive",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Acidic",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Astringent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Bitter",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Bland",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Briny",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Calming",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Citrus",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Coarse",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Cold",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Complex",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Dry",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Dry, Not Sweet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fibrous",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fishy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Flat",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fresh",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Full",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gamy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gentle",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gingery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Harsh",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Honey",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Hot",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Juicy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Matured",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Mellow",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Mild",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Moist",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Overly Sweet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Peppery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Pickled",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Pungent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rancid",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rotten",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rough",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Salty",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Scorching",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Searing",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sharp",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Smelly",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Smooth",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Soft",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Spicy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stale",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stinging",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sweet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tangy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tannic",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tart",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tasteless",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Umami",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Unsweetened",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Vinegary",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Chocolatey",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Messy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Nutmeg",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Buttery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Oily",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Chewy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Citrusy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Crispy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Crumbly",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Crunchy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Earthy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Effervescent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Eggy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fiery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fizzy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fluffy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fragrant",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gooey",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Greasy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gritty",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Heavy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Herbaceous",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Lemony",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Light",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Medicinal",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Pasty",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Piping",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Puffy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rich",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Runny",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Satiny",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sour",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sparkling",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Spongy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sticky",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stiff",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stringy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Strong",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Succulent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Syrupy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Velvety",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Mushy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Intense",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Plump",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Refreshing",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rubbery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Ripe",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Soothing",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Strawberry",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Vanilla",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Woody",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Wet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Zippy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    }
+  ]
+}

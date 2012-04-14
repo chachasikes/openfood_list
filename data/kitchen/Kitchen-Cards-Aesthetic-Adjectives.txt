@@ -1,0 +1,468 @@
+{
+  "kitchen" : [
+    {
+      "name" : "Aromatic",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Artful",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Authentic",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Beautiful",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Biting",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Buttery",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Calm",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Chewy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Citrusy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Classic",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Country-style",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Crispy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Crumbly",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Crunchy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Earthy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Effervescent",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Eggy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fiery",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fizzy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fluffy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fragrant",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Gooey",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Greasy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Gritty",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Heavy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Herbaceous",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Juicy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Kosher",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Lace",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Lemony",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Light",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Medicinal",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Mellow",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Moist",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Pasty",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Peppery",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Piping",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Puffy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Rich",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Runny",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Satiny",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Savor",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Silky",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Skillful",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Sour",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Southern Style",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Sparkling",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Spongy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Sticky",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Stiff",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Stringy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Strong",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Succulent",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Syrupy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Velvety",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Mushy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : null,
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Intense",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    }
+  ]
+}

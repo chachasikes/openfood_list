@@ -22,6 +22,7 @@ $cursor = $collection->find();
 /* $file_path = '../data/kitchen/Kitchen-Cards-Physical-Process.json'; */
 /* $file_path = '../data/kitchen/Kitchen-Cards-Shapes.json'; */
 $file_path = '../data/kitchen/Kitchen-Cards-All-json-merged.json';
+/* $file_path = '../data/kitchen/Kitchen-Cards-Adjectives-All.json'; */
 
 $file_data = file_get_contents($file_path);
 /* var_dump($file_data); */

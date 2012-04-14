@@ -26,7 +26,7 @@ $(document).ready(function(){
 
 foods.customizeInitialLoad = function() {
   $("div#search input.search").val("Search for a technique");
-  $('div.search-string').html("Showing all kitchen techniques");
+  $('div.search-string').html("Showing all kitchen techniques and descriptors.");
 
   $("div#search input.search").focus(function(){
     $("div#search input.search").val('');
@@ -83,7 +83,7 @@ foods.loadDataError = function(data) {
 foods.contentLoadSuccess = function(data) {
   foods.data = data;
   foods.content = data["foods"];
-  $('div.food-count').html("found " + foods.data.count + " foods");
+  $('div.food-count').html("found " + foods.data.count + " kitchen concepts");
 
   if(window.location.hash !== "") {
     hash = window.location.hash.replace('#', '');
@@ -161,7 +161,7 @@ foods.loadFoods = function() {
 
   $('div#foods .food').css('visibility', 'visible');
 
-  $('div.food-count').html("found " + foods.data.count + " foods");
+  $('div.food-count').html("found " + foods.data.count + " kitchen concepts");
   
 /*   foods.handleDuplicates(); */
 

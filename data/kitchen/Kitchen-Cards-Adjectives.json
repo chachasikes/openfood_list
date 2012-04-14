@@ -1,0 +1,2172 @@
+{
+  "kitchen" : [
+    {
+      "name" : "Aromatic",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Artful",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Authentic",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Beautiful",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Biting",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Buttery",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Calm",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Chewy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Citrusy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Classic",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Country-style",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Crispy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Crumbly",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Crunchy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Earthy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Effervescent",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Eggy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fiery",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fizzy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fluffy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fragrant",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Gooey",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Greasy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Gritty",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Heavy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Herbaceous",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Juicy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Kosher",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Lace",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Lemony",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Light",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Medicinal",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Mellow",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Moist",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Pasty",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Peppery",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Piping",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Puffy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Rich",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Runny",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Satiny",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Savor",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Silky",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Skillful",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Sour",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Southern Style",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Sparkling",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Spongy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Sticky",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Stiff",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Stringy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Strong",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Succulent",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Syrupy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Velvety",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Mushy",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : null,
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Intense",
+      "food_color_background" : "EEB8CB",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:49",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "category" : "foods, adjectives, aesthetic, kitchen cards, flavor description"
+    },
+    {
+      "name" : "Fruity",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Spicy",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Microbiological",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Oxidized",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Chemical",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Earthy",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Woody",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Caramel",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Nutty",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Herbaceous",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Vegetative",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Citrus",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Berry",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Tree Fruit",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Tropical Fruit",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Dried Fruit",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Grapefruit",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Lemon",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Blackberry",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Raspberry",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Strawberry",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Black Currant",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Cassis",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Cherry",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Apricot",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Peach",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Apple",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Pineapple",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Melon",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Banana",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Raisin",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Strawberry Jam",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Prune",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Fig",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Cut Green Grass",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Bell Pepper",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Eucalyptus",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Mint",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Green Beans",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Asparagus",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Green Olive",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Black Olive",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Artichoke",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Fresh",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Canned",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Dried",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Hay",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Tea",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Tobacco",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Walnut",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Hazelnut",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Almond",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Honey",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Butterscotch",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Butter",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Soy Sauce",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Chocolate",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Molasses",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Burned Wood",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Resinous Wood",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Smokey",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Burnt Toast",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Coffee",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Medicinal",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Phenolic Wood",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Bacon",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Oak",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Cedar",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Vanilla",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Pungent",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Sulfur",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Petroleum",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Diesel",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Kerosene",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Plastic",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Tar",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Wet Wool",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Burnt Match",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Cabbage",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Skunk",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Garlic",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Natural Gas",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Rubbery",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Acetic Acid",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Sulfur Dioxide",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Methol",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Alcohol",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Cool",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Sherry",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Baker's Yeast",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Leesy",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Lactic",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Sauerkraut",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Sweaty",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Yogurt",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Mousey",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Horsey",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Animal",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Floral",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Geranium",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Violet",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Rose",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Orange Blossom",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Licorice",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Black Pepper",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Cloves",
+      "category" : "foods, adjectives, aromas, aroma wheel, scents, tastes, kitchen cards, flavor description",
+      "food_color_text" : "131313",
+      "food_color_background" : "DCECC5",
+      "updated_date" : "Saturday, April 14, 2012 - 2:02",
+      "datasource" : "Ann Noble's Aroma Wheel. University of California Davis,in collaboration with people in the wine industry (c) 1990 A C Noble.http://en.wikipedia.org/wiki/Aroma_wheel#The_Aroma_Wheel"
+    },
+    {
+      "name" : "Abrasive",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Acidic",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Astringent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Bitter",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Bland",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Briny",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Calming",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Citrus",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Coarse",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Cold",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Complex",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Dry",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Dry, Not Sweet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fibrous",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fishy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Flat",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fresh",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Full",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gamy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gentle",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gingery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Harsh",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Honey",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Hot",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Juicy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Matured",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Mellow",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Mild",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Moist",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Overly Sweet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Peppery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Pickled",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Pungent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rancid",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rotten",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rough",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Salty",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Scorching",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Searing",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sharp",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Smelly",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Smooth",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Soft",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Spicy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stale",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stinging",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sweet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tangy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tannic",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tart",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Tasteless",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Umami",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Unsweetened",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Vinegary",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Chocolatey",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Messy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Nutmeg",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Buttery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Oily",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Chewy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Citrusy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Crispy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Crumbly",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Crunchy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Earthy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Effervescent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Eggy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fiery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fizzy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fluffy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Fragrant",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gooey",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Greasy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Gritty",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Heavy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Herbaceous",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Lemony",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Light",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Medicinal",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Pasty",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Piping",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Puffy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rich",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Runny",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Satiny",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sour",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sparkling",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Spongy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Sticky",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stiff",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Stringy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Strong",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Succulent",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Syrupy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Velvety",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Mushy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Intense",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Plump",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Refreshing",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Rubbery",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Ripe",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Soothing",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Strawberry",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Vanilla",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Woody",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Wet",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    },
+    {
+      "name" : "Zippy",
+      "category" : "foods, adjectives, flavor, food flavors, kitchen cards, flavor description",
+      "datasource" : "@chachasikes From various lists of food descriptor words.",
+      "food_color_background" : "F9F7AA",
+      "food_color_text" : "131313",
+      "updated_date" : "Saturday, April 14, 2012 - 1:57"
+    }
+  ]
+}
