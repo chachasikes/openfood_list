@@ -388,15 +388,6 @@
       "food_color_text" : "131313"
     },
     {
-      "name" : "Saute",
-      "nid" : 30244,
-      "category" : "physical, kitchen cards, physical process, cooking, technique, cooking technique",
-      "updated_date" : "Saturday, April 14, 2012 - 9:48",
-      "datasource" : "@chachasikes: listing from memory & from scanning lists of food words.",
-      "food_color_background" : "C0BFC4",
-      "food_color_text" : "131313"
-    },
-    {
       "name" : "Shake",
       "nid" : 30245,
       "category" : "physical, kitchen cards, physical process, cooking, technique, cooking technique",

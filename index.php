@@ -36,6 +36,7 @@
           <a class="brand" href="./index.php">Foods</a>
           <div class="nav-collapse">
             <ul class="nav">
+              <li><a href="kitchen.php">Kitchen Techniques</a></li>
               <li><a href="#about" data-toggle="modal">About</a></li>
               <li><a href="#faq" data-toggle="modal">FAQ</a></li>
             </ul>

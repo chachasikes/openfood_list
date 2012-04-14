@@ -84,7 +84,6 @@ foods.contentLoadSuccess = function(data) {
   foods.data = data;
   foods.content = data["foods"];
   $('div.food-count').html("found " + foods.data.count + " foods");
-/*   $('a.back').hide(); */
 
   if(window.location.hash !== "") {
     hash = window.location.hash.replace('#', '');
@@ -154,6 +153,7 @@ foods.loadFoods = function() {
   if(foods.page == 0) {
     foodsContainer.empty();
   }
+
   for (var i in foods.content) {
     $.tmpl("foodsTemplate", foods.content[i])
       .appendTo(foodsContainer);
@@ -317,6 +317,7 @@ foods.editButtons = function(food) {
   var record = {};
   record.food = foodContent;
 
+/*
   $("div.colors .background input.picker").spectrum({
     color: foodContent.food_color_background,
     showInput: true,
@@ -332,6 +333,7 @@ foods.editButtons = function(food) {
       foods.updateRecord(record);
     }
   });
+*/
 
   $("input.reset-depiction").click(function(){
     $('input.depiction').val(foodContent.depiction);  
@@ -362,6 +364,38 @@ foods.editButtons = function(food) {
   }
 
 
+  $("div.colors .background input[name=food_color_background]").change(function() {
+    var record = {};
+    record.food = foodContent;
+
+    var currentColor = $(this).val();
+    if(currentColor == 'beige') {
+      record.food.food_color_background = 'F0E8C4';
+    }
+    if(currentColor == 'blue') {
+      record.food.food_color_background = 'E0EDFE';
+    }
+    if(currentColor == 'grey') {
+      record.food.food_color_background = 'C0BFC4';
+    }
+
+    $("div#foods .food a#" + record.food["_id"]["$id"]).css("color", "#" + record.food.food_color_background);
+
+    // foods.updateRecord(record);
+  });
+
+  var currentColor =  food.food_color_background;
+
+  if(currentColor == 'F0E8C4') {
+    $('div.colors .background input[name=food_color_background]:nth(0)').attr('checked',true);
+  }
+  if(currentColor == 'E0EDFE') {
+    $('div.colors .background input[name=food_color_background]:nth(1)').attr('checked',true);
+  }
+  if(currentColor == 'C0BFC4') {
+    $('div.colors .background input[name=food_color_background]:nth(2)').attr('checked',true);
+  }
+
   $("div.colors .text input[name=food_color_text]").change(function() {
     var record = {};
     record.food = foodContent;
@@ -376,7 +410,7 @@ foods.editButtons = function(food) {
 
     $("div#foods .food a#" + record.food["_id"]["$id"]).css("color", "#" + record.food.food_color_text);
 
-    foods.updateRecord(record);
+    // foods.updateRecord(record);
   });
 };
 

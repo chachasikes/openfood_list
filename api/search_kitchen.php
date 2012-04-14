@@ -50,7 +50,7 @@ header("Pragma: no-cache");
 header("Content-type: application/json");
 
 
-$json = '{"kitchen": [' ;
+$json = '{"foods": [' ;
 
 $i = 0;
 

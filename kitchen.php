@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Foods</title>
+    <title>Kitchen Techniques</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -36,6 +36,7 @@
           <a class="brand" href="./index.php">Kitchen</a>
           <div class="nav-collapse">
             <ul class="nav">
+              <li><a href="index.php">Foods</a></li>
               <li><a href="#about" data-toggle="modal">About</a></li>
               <li><a href="#faq" data-toggle="modal">FAQ</a></li>
             </ul>
@@ -53,7 +54,6 @@
            <a href="./index.php" class="icon-arrow-left button back">Back</a> 
     <div class="row-fluid">
     <div class="intro">
-
       Think of this as an interactive dictionary of names of kinds of kitchen techniques.
     </div>
 
@@ -87,7 +87,7 @@
           <div class="names span6">
             <h4>Names</h4>
               <dd>
-                {{if name}}<dt>Long Common Name</dt><dd>${name}</dd>{{/if}}
+                {{if name}}<dt>Name</dt><dd>${name}</dd>{{/if}}
               </dd>
             {{if category}}
             <h4>Categories</h4>
@@ -111,16 +111,20 @@
               <div class="background color" style ="background-color:{{if food_color_background}}#${food_color_background}{{else}}#dedede{{/if}};">
                   <div class="modal-label">Background Color</div>
                   <p>{{if food_color_background}}#${food_color_background}{{else}}Not set{{/if}}
-                    <input type="radio" name="food_color_text" value="blue"><span>Blue</span><br />
-                    <input type="radio" name="food_color_text" value="grey"><span>Grey</span><br />
-                    <input type="radio" name="food_color_text" value="beige"><span>Beige</span><br />                    
+<!--
+                    <input type="radio" name="food_color_background" value="beige"><span>Beige</span><br /> 
+                    <input type="radio" name="food_color_background" value="blue"><span>Blue</span><br />
+                    <input type="radio" name="food_color_background" value="grey"><span>Grey</span><br />        
+-->           
                   </p>
               </div>
               <div class="text color" style="background-color:{{if food_color_text}}#${food_color_text}{{else}}#222{{/if}}">
                 <div class="modal-label">Text Color</div>
                   <p>{{if food_color_text}}#${food_color_text}{{else}}Not set{{/if}}</p>
+<!--
                     <input type="radio" name="food_color_text" value="dark"><span>Dark</span><br />
                     <input type="radio" name="food_color_text" value="light"><span>Light</span><br />
+-->
                   </p>
               </div>
             </div><!-- end colors -->
@@ -164,7 +168,7 @@
             
             <sub>These buttons will not work yet, but you get the idea.</sub>
             <p><input type="checkbox" value="${is_duplicate}" />This is a duplicate.</p>
-            <p><input type="checkbox" value="${is_not_food}" />This is not food.</p>
+            <p><input type="checkbox" value="${is_not_food}" />This is not a kitchen technique.</p>
           </div>
         </div>
 
