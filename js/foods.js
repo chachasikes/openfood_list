@@ -437,12 +437,19 @@ foods.imageCrop = function() {
 
     image.imageObj["food-image"].src = image.img["img"].src;
 
+    // @TODO Think this isn't being called after modal is loaded.
     image.imageObj["food-image"].onload = function(){
       image.width = parseInt($(this).attr('width'));
       image.height = parseInt($(this).attr('height'));
+       // Force a redraw of canvas.
+      image.context["context"].clearRect(0,0,image.canvas["food-canvas"].width, image.canvas["food-canvas"].height);
       image.context["context"].drawImage(image.img["img"], image.width * -0.1,  image.height * -0.5,  image.width,  image.height);
+
+
+     
+
     }
-  }
+ }
 };
 
 foods.formatDate = function (datetime) {

@@ -13,7 +13,8 @@ $page_items = 500;
 $collection = $m->openfood->foods;
 
 // find everything in the collection
-$cursor = $collection->find()->skip($page * $page_items)->limit($page_items)->sort(array("name" => 1));
+$query = array('depiction' => array('$ne' => null));
+$cursor = $collection->find($query)->skip($page * $page_items)->limit($page_items)->sort(array("name" => 1));
 $count = $cursor->count();
 
 header('Access-Control-Allow-Origin: *.foodcards.org | *.chachaville.com');

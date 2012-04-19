@@ -13,7 +13,7 @@ $page_items = 500;
 $collection = $m->openfood->foods;
 
 // find everything in the collection
-$query = array("openfood_update" => array('$ne' => "null" ));
+$query = array("openfood_update" => array('$ne' => null ));
 
 $cursor = $collection->find($query)->limit($page_items)->sort(array("openfood_update" => -1));
 $count = $cursor->count();
@@ -31,7 +31,7 @@ $i = 0;
 
 // iterate through the results
 foreach ($cursor as $obj) {
-  if(!empty($obj['openfood_update'])) {
+  if(!empty($obj['name'])) {
     if($i > 0) {
      $json .= ',';
     }
